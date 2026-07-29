@@ -26,6 +26,7 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\fad6ed3f.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/fad6ed3f",
+    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\fad6ed3f.vue",
     "urlPath": "articles/zh-CN/fad6ed3f"
   },
