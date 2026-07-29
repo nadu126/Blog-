@@ -12,8 +12,10 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^4.0.0",
     "@supabase/supabase-js": "^2.111.0",
+    "@tailwindcss/postcss": "^4.1.18",
     "marked": "^16.4.1",
     "nuxt": "^4.1.2",
+    "tailwindcss": "^4.1.18",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   }

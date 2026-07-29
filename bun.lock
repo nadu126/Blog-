@@ -55,7 +55,7 @@
     },
     "packages/create-kecare": {
       "name": "create-kecare",
-      "version": "1.0.0-beta.100",
+      "version": "1.0.0-beta.106",
       "bin": {
         "create-kecare": "index.mjs",
       },
@@ -69,7 +69,7 @@
     },
     "packages/kecare": {
       "name": "kecare",
-      "version": "1.0.0-beta.100",
+      "version": "1.0.0-beta.106",
       "devDependencies": {
         "@types/bun": "latest",
       },
@@ -79,7 +79,7 @@
     },
     "projects/generator": {
       "name": "kecare-generator",
-      "version": "1.0.0-beta.100",
+      "version": "1.0.0-beta.106",
       "devDependencies": {
         "@types/bun": "latest",
       },
@@ -100,8 +100,11 @@
       "name": "kecare-theme",
       "dependencies": {
         "@nuxtjs/color-mode": "^4.0.0",
+        "@supabase/supabase-js": "^2.111.0",
+        "@tailwindcss/postcss": "^4.1.18",
         "marked": "^16.4.1",
         "nuxt": "^4.1.2",
+        "tailwindcss": "^4.1.18",
         "vue": "^3.5.22",
         "vue-router": "^4.5.1",
       },
