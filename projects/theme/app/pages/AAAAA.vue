@@ -27,6 +27,7 @@ type ExpenseRecord = {
     date: string
     category: string
     note: string
+    avatar: string
 }
 
 type BalanceData = {
