@@ -17,6 +17,7 @@ type SponsorRecord = {
     amount: number
     date: string
     note: string
+    avatar: string
 }
 
 type ExpenseRecord = {
@@ -62,6 +63,7 @@ const { data: expenseRecords, pending: expensePending, error: expenseError } = a
     },
     { server: false }
 )
+console.log(expenseRecords.value)
 
 const { data: balanceData, pending: balancePending } = await useAsyncData<BalanceData>(
     'fioralune-balance',
@@ -281,7 +283,8 @@ onMounted(async () => {
                                 class="record-item record-item--income">
                                 <div class="record-left">
                                     <div class="record-avatar record-avatar--income">
-                                        {{ record.name.charAt(0) }}
+                                        <img v-if="record.avatar" :src="record.avatar" class="avatar-img" />
+                                        <span v-else>{{ record.name.charAt(0) }}</span>
                                     </div>
                                     <div class="record-info">
                                         <span class="record-name">{{ record.name }}</span>
@@ -304,7 +307,8 @@ onMounted(async () => {
                                 class="record-item record-item--expense">
                                 <div class="record-left">
                                     <div class="record-avatar record-avatar--expense">
-                                        {{ record.item.charAt(0) }}
+                                        <img v-if="record.avatar" :src="record.avatar" class="avatar-img" />
+                                        <span v-else>{{ record.item.charAt(0) }}</span>
                                     </div>
                                     <div class="record-info">
                                         <div class="record-name-row">
@@ -330,7 +334,8 @@ onMounted(async () => {
                                 class="record-item record-item--income">
                                 <div class="record-left">
                                     <div class="record-avatar record-avatar--income">
-                                        {{ record.name.charAt(0) }}
+                                        <img v-if="record.avatar" :src="record.avatar" class="avatar-img" />
+                                        <span v-else>{{ record.name.charAt(0) }}</span>
                                     </div>
                                     <div class="record-info">
                                         <span class="record-name">{{ record.name }}</span>
@@ -352,7 +357,8 @@ onMounted(async () => {
                                 class="record-item record-item--expense">
                                 <div class="record-left">
                                     <div class="record-avatar record-avatar--expense">
-                                        {{ record.item.charAt(0) }}
+                                        <img v-if="record.avatar" :src="record.avatar" class="avatar-img" />
+                                        <span v-else>{{ record.item.charAt(0) }}</span>
                                     </div>
                                     <div class="record-info">
                                         <div class="record-name-row">
@@ -791,6 +797,13 @@ onMounted(async () => {
 
 .record-avatar--expense {
     background: linear-gradient(135deg, #f44336, #e57373);
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .record-info {
