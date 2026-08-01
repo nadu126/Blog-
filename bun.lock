@@ -13,6 +13,7 @@
         "@milkio/stargate-worker": "1.0.0-beta.205",
         "@milkio/vite-plugin-milkio": "1.0.0-beta.205",
         "@rollup/rollup-linux-x64-gnu": "^4.62.3",
+        "@rollup/wasm-node": "^4.62.3",
         "@supabase/supabase-js": "^2.111.0",
         "@types/node": "^25.2.2",
         "@vueuse/core": "^14.2.1",
@@ -558,6 +559,8 @@
     "@rollup/rollup-win32-x64-gnu": ["@rollup/rollup-win32-x64-gnu@4.62.3", "", { "os": "win32", "cpu": "x64" }, "sha512-vp7N084ew/odXn2gi/mzm9mUkQu9l6AiN6dt4IeUM2Uvm9o+cVmP+YkqbMOteLbiGgqBBlJZjIMYVCfOOIVbVQ=="],
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.62.3", "", { "os": "win32", "cpu": "x64" }, "sha512-MOG/3gTOn4Fwf574RVOaY61I5o6P90legkFADiTyn1hyjNydT+cerU2rLUwPdZkKKyJ+iT+K9p7WXK4LM1Ka6g=="],
+
+    "@rollup/wasm-node": ["@rollup/wasm-node@4.62.3", "", { "dependencies": { "@types/estree": "1.0.9" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "bin": { "rollup": "dist/bin/rollup" } }, "sha512-sEOQWamme1YgXeVcE1JkB1k44RwtPWcpYpGUW1Lso7bOj+Ay9lN2Pak/CcfNeC4xqIPNhYSabQNaWYkJJR7m8Q=="],
 
     "@samchon/openapi": ["@samchon/openapi@4.7.2", "", {}, "sha512-yj6kGWHtKK85wfJXrSmWqLWjfCd98SAvCTsVDlej2s7OfXXHqA4hmgPRNrAPIQRVi00xn26qL1PChjq1MhzlRQ=="],
 

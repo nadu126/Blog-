@@ -1,3 +1,4 @@
+process.env.ROLLUP_WASM = 'true';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
