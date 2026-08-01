@@ -5,7 +5,7 @@
   "scripts": {
     "build": "ROLLUP_WASM=true nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "ROLLUP_WASM=true nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "ROLLUP_WASM=true nuxt prepare"
   },
