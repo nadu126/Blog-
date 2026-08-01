@@ -5,9 +5,9 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "ROLLUP_WASM=true nuxt generate",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "ROLLUP_WASM=true nuxt prepare"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^4.0.0",
