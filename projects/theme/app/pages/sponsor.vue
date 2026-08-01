@@ -7,7 +7,7 @@ import Footer from '~/components/Theme/Sidebar/Footer.vue'
 import bg from '~/assets/bg3.jpg'
 
 useHead({
-    title: '花月 · 赞助们',
+    title: '花月 · 赞助',
 })
 
 // Supabase 返回的数据类型

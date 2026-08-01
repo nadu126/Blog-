@@ -5,9 +5,14 @@ const currentYear = new Date().getFullYear()
 <template>
     <footer class="footer">
         <div class="footer-line"></div>
+        <div class="footer-MoeIcp">
+            <a href="https://icp.gov.moe/?keyword=20260825" target="_blank">萌ICP备20260825号</a>
+        </div>
         <div class="footer-bottom">
             <p>&copy;2020-{{ currentYear }} Kecare. All rights reserved.</p>
             <p>Powered by <a href="https://kecare.kecream.cn" target="_blank" rel="noopener noreferrer">Kecare</a></p>
+        </div>
+        <div class="footer-line">
         </div>
     </footer>
 </template>
@@ -26,15 +31,21 @@ const currentYear = new Date().getFullYear()
 }
 
 .footer-bottom {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px 40px;
     text-align: center;
-    border-top: 1px solid var(--color-border);
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
+}
+
+.footer-MoeIcp {
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+}
+
+.footer-MoeIcp a {
+    text-decoration: none;
 }
 
 .footer-bottom p {

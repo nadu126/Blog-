@@ -108,7 +108,8 @@ onMounted(async () => {
                     </h2>
                     <div class="text-[var(--color-text-secondary)] leading-[1.8]">
                         <p class="mb-[15px]">
-                            欢迎交换友链！请在您的网站添加本站链接后，在本页面留言区按以下格式留言：
+                            欢迎交换友链！请在您的网站添加本站链接后，将以下格式信息发送至邮箱: <a
+                                href="mailto:Pamper@mail.kecare.me">Pamper@mail.kecare.me</a>
                         </p>
                         <div
                             class="bg-[var(--color-bg-secondary)] rounded-[10px] p-[20px] font-mono text-[0.9rem] border border-[rgba(169,169,169,0.15)]">

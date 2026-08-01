@@ -1,15 +1,15 @@
-<!-- Generated: 2026-07-29T21:05:31.813Z -->
+<!-- Generated: 2026-08-01T01:10:56.999Z -->
         <script setup lang="ts">
         import archivesTheme from '~/components/archive-landing.vue'
         const articles = [
   {
-    "title": "赛程及结果及一些事件",
+    "title": "天天禄杯S2",
     "lang": "zh-CN",
-    "hash": "fad6ed3f",
+    "hash": "aff462d2",
     "tags": [],
-    "date": "2026-07-20",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\fad6ed3f.vue",
-    "urlPath": "articles/zh-CN/fad6ed3f"
+    "date": "2026-08-01",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
+    "urlPath": "articles/zh-CN/aff462d2"
   },
   {
     "title": "天天禄杯",
@@ -103,15 +103,6 @@
     "urlPath": "articles/zh-CN/95140e73"
   },
   {
-    "title": "Kecare从这里开始喵",
-    "lang": "zh-CN",
-    "hash": "70e6923c",
-    "tags": [],
-    "date": "2026-03-10",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\70e6923c.vue",
-    "urlPath": "articles/zh-CN/70e6923c"
-  },
-  {
     "title": "关于我",
     "lang": "zh-CN",
     "hash": "2f0fd1f2",
@@ -119,6 +110,15 @@
     "date": "2026-03-10",
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
     "urlPath": "articles/zh-CN/2f0fd1f2"
+  },
+  {
+    "title": "Kecare从这里开始喵",
+    "lang": "zh-CN",
+    "hash": "70e6923c",
+    "tags": [],
+    "date": "2026-03-10",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\70e6923c.vue",
+    "urlPath": "articles/zh-CN/70e6923c"
   },
   {
     "title": "markdown扩展",

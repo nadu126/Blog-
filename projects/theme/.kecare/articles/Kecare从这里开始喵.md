@@ -1,7 +1,6 @@
 ---
 date: 2026-03-10
 menu: test
-sticky: 2
 translate: ['zh-CN', 'en-US', 'ja-JP']
 author: Pamper
 ---

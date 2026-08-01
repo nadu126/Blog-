@@ -6,32 +6,6 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "赛程及结果及一些事件",
-    "isOriginalLang": true,
-    "desc": "一些事情 本届比赛确实有点太乱了，而且这也不是我所希望看到的。赛前换人，以及一人分饰两角，还有一个队伍三个替补的。这种情况几乎每个队伍都有。我是不希望这种情况的。让后呢，这个比赛又完全是我个人出资奖金，我是没有那么多能力去支持8月份的奖金去...",
-    "hash": "fad6ed3f",
-    "relativePath": "/赛程及结果及一些事件.md",
-    "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
-      "title": "赛程及结果及一些事件",
-      "tags": [],
-      "desc": "一些事情 本届比赛确实有点太乱了，而且这也不是我所希望看到的。赛前换人，以及一人分饰两角，还有一个队伍三个替补的。这种情况几乎每个队伍都有。我是不希望这种情况的。让后呢，这个比赛又完全是我个人出资奖金，我是没有那么多能力去支持8月份的奖金去...",
-      "translate": [
-        "zh-CN"
-      ],
-      "sticky": 5,
-      "author": "Pamper",
-      "date": "2026-07-20",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\fad6ed3f.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/fad6ed3f",
-    "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\fad6ed3f.vue",
-    "urlPath": "articles/zh-CN/fad6ed3f"
-  },
-  {
-    "lang": "zh-CN",
     "title": "花月项目",
     "isOriginalLang": true,
     "desc": "Fioralune（花月） Pamper享有对Fioralune的最终解释权 目前正在举行的天天禄杯和以后可能主要以Fioralune Championship举办的比赛，以及目前还未正式上线的个人开发者奖项Fioralune Awards...",
@@ -58,29 +32,58 @@
   },
   {
     "lang": "zh-CN",
-    "title": "天天禄杯",
+    "title": "天天禄杯S2",
     "isOriginalLang": true,
-    "desc": "天天禄杯 [!NOTE] 我很懒，我将本赛事的所有内容都写在这一篇文章上了，如果你阅读起来觉得一会这一会那的。那没招，我没时间。 赞助商 感谢世界上最好的静态网站生成框架Kecare的赞助喵 感谢世界上最好的Ts全栈框架milkio的赞助喵...",
-    "hash": "74a2573a",
-    "relativePath": "/天天禄杯.md",
+    "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
+    "hash": "aff462d2",
+    "relativePath": "/天天禄杯S2.md",
     "frontMatter": {
       "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
-      "title": "天天禄杯",
+      "title": "天天禄杯S2",
       "tags": [],
-      "desc": "天天禄杯 [!NOTE] 我很懒，我将本赛事的所有内容都写在这一篇文章上了，如果你阅读起来觉得一会这一会那的。那没招，我没时间。 赞助商 感谢世界上最好的静态网站生成框架Kecare的赞助喵 感谢世界上最好的Ts全栈框架milkio的赞助喵...",
+      "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
       "translate": [
         "zh-CN"
       ],
-      "sticky": 3,
+      "sticky": 4,
       "author": "Pamper",
-      "date": "2026-07-04",
+      "date": "2026-08-01",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\74a2573a.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/74a2573a",
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/aff462d2",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
+    "urlPath": "articles/zh-CN/aff462d2"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "关于我",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
+    "hash": "2f0fd1f2",
+    "relativePath": "/关于我.md",
+    "frontMatter": {
+      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
+      "title": "关于我",
+      "menu": "test",
+      "tags": [],
+      "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 4,
+      "author": "Pamper",
+      "date": "2026-03-10",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f0fd1f2",
     "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\74a2573a.vue",
-    "urlPath": "articles/zh-CN/74a2573a"
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
+    "urlPath": "articles/zh-CN/2f0fd1f2"
   },
   {
     "lang": "zh-CN",
@@ -112,33 +115,29 @@
   },
   {
     "lang": "zh-CN",
-    "title": "关于我",
+    "title": "天天禄杯",
     "isOriginalLang": true,
-    "menu": "test",
-    "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
-    "hash": "2f0fd1f2",
-    "relativePath": "/关于我.md",
+    "desc": "天天禄杯 [!NOTE] 我很懒，我将本赛事的所有内容都写在这一篇文章上了，如果你阅读起来觉得一会这一会那的。那没招，我没时间。 赞助商 感谢世界上最好的静态网站生成框架Kecare的赞助喵 感谢世界上最好的Ts全栈框架milkio的赞助喵...",
+    "hash": "74a2573a",
+    "relativePath": "/天天禄杯.md",
     "frontMatter": {
       "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
-      "title": "关于我",
-      "menu": "test",
+      "title": "天天禄杯",
       "tags": [],
-      "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
+      "desc": "天天禄杯 [!NOTE] 我很懒，我将本赛事的所有内容都写在这一篇文章上了，如果你阅读起来觉得一会这一会那的。那没招，我没时间。 赞助商 感谢世界上最好的静态网站生成框架Kecare的赞助喵 感谢世界上最好的Ts全栈框架milkio的赞助喵...",
       "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
+        "zh-CN"
       ],
-      "sticky": 3,
+      "sticky": 0,
       "author": "Pamper",
-      "date": "2026-03-10",
+      "date": "2026-07-04",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f0fd1f2",
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\74a2573a.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/74a2573a",
     "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
-    "urlPath": "articles/zh-CN/2f0fd1f2"
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\74a2573a.vue",
+    "urlPath": "articles/zh-CN/74a2573a"
   }
 ]
                 const currentPage = 1
