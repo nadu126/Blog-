@@ -3,16 +3,17 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "ROLLUP_WASM=true nuxt build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "ROLLUP_WASM=true nuxt generate",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "ROLLUP_WASM=true nuxt prepare"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^4.0.0",
     "@supabase/supabase-js": "^2.111.0",
     "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/vite": "^4.3.3",
     "marked": "^16.4.1",
     "nuxt": "^4.1.2",
     "tailwindcss": "^4.1.18",
