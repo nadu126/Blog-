@@ -1,4 +1,4 @@
-import type { KecareContext, ModuleMenuTS, NavItem } from "kecare";
+import type { KecareContext, NavItem } from "kecare";
 import { Glob, write } from "bun";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -7,10 +7,6 @@ import { existsSync, mkdirSync } from "node:fs";
 async function createMenuModuleHandler(context: KecareContext) {
     const modulePath = join(context.projectPath, '.kecare', 'menus');
     if (!existsSync(modulePath)) mkdirSync(modulePath);
-    const glob = new Glob(`${modulePath}/**/*.{menu.source.ts}`);
-
-    const modules: Array<Promise<ModuleMenuTS>> = [];
-    for await (const file of glob.scan(".")) modules.push(await import(file));
 
     const module = {
         async finish() {

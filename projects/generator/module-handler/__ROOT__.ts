@@ -1,7 +1,6 @@
 import type { ArticleVariant, KecareContext } from "kecare";
 import { useArticleModuleHandler } from "./article.ts";
 import { useListModuleHandler } from "./list.ts";
-import { useMenuModuleHandler } from "./menu.ts";
 import { useArchivesModuleHandler } from "./archives.ts";
 import { useSearchModuleHandler } from "./search.ts";
 import { collectArticleData, computeArticleStats } from "./articleStats.ts";
@@ -25,7 +24,6 @@ export async function emitModuleFinish(context: KecareContext) {
     // 集中计算聚合统计数据，供所有 finish() 处理器使用
     computeArticleStats(context);
 
-    await (await useMenuModuleHandler(context)).finish();
     await (await useListModuleHandler(context)).finish(context);
     await (await useSearchModuleHandler(context)).finish(context);
     await (await useArchivesModuleHandler(context)).finish(context);

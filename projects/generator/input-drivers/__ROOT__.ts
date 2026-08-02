@@ -2,6 +2,7 @@ import { freemem } from "os";
 import type { ArticleVariant, KecareContext } from "kecare";
 import { markdownInputDriver } from "./markdown-driver/__ROOT__";
 import { emitModuleFinish } from "../module-handler/__ROOT__";
+import { useMenuModuleHandler } from "../module-handler/menu.ts";
 
 export type InputDriverChunk = (emitArticleHandle: (context: KecareContext, params: ArticleVariant) => Promise<void>) => Promise<void>;
 
@@ -12,6 +13,9 @@ export async function executeInputDrivers(context: KecareContext, emitArticleHan
         // 调用 markdown 输入驱动
         markdownInputDriver(context, chunks),
     ]);
+
+    // 预先处理菜单，确保 .menu.generated.ts 在文章生成前已存在
+    await (await useMenuModuleHandler(context)).finish();
 
     // 批量处理 chunk 以避免内存溢出
     const MEMORY_PER_ARTICLE_BYTES = 100 * 1024 * 1024;

@@ -6,7 +6,6 @@ export const navItems: NavItem[] = [
         level: 1,
         items: [
             { text: '关于我', link: './关于我.md', level: 2 },
-            { text: '快速开始', link: './快速开始.md', level: 2 },
             { text: '缓存机制', link: './kecare的缓存.md', level: 2 },
             { text: '项目结构', link: './项目结构.md', level: 2 },
         ],

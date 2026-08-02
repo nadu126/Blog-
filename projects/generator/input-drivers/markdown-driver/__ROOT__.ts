@@ -103,7 +103,7 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
 
 
         const cover = rawFrontMatter.cover
-        console.log(`[markdown] ${fsPath} 中的 cover 字段值为 ${cover}`);
+        // console.log(`[markdown] ${fsPath} 中的 cover 字段值为 ${cover}`);
         let finalCover = cover;
         if (!finalCover) {
             const themeConfig = await useThemeConfig(context);
@@ -111,7 +111,7 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
             if (images && images.length > 0) {
                 const randomIndex = Math.floor(Math.random() * images.length);
                 finalCover = images[randomIndex];
-                console.log(`[markdown] ${fsPath} 中的 cover 字段为空,已随机选择 ${finalCover}`);
+                // console.log(`[markdown] ${fsPath} 中的 cover 字段为空,已随机选择 ${finalCover}`);
             }
         }
 

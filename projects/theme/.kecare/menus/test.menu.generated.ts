@@ -17,11 +17,6 @@ export const navItems: NavItem[] = [
         "level": 2
       },
       {
-        "text": "快速开始",
-        "link": "./95bb100b",
-        "level": 2
-      },
-      {
         "text": "缓存机制",
         "link": "./8246c8ed",
         "level": 2
