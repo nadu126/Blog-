@@ -17,8 +17,8 @@ export const navItems: NavItem[] = [
         "level": 2
       },
       {
-        "text": "缓存机制",
-        "link": "./8246c8ed",
+        "text": "快速开始",
+        "link": "./95bb100b",
         "level": 2
       },
       {
@@ -60,7 +60,7 @@ export const navItems: NavItem[] = [
     ]
   },
   {
-    "text": "主题开发",
+    "text": "主题开发(待完善)",
     "level": 1,
     "items": [
       {
@@ -76,6 +76,17 @@ export const navItems: NavItem[] = [
       {
         "text": "归档页",
         "link": "./93b7f9a7",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "text": "更多",
+    "level": 1,
+    "items": [
+      {
+        "text": "缓存机制",
+        "link": "./8246c8ed",
         "level": 2
       }
     ]

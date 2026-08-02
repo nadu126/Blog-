@@ -1,0 +1,19 @@
+{
+  "16456957": "Kecare is a static website generation framework, mainly designed for documentation sites and blogs. The webpage you are currently reading was processed by Kecare, meow.",
+  "84f201ce": "# Fioralune（Flower Moon）",
+  "b5ff83e3": "I'm so lazy, the following are a few things I'm working on myself. I sincerely ask everyone to learn from them and offer your guidance, meow~",
+  "a70bfa9d": "## PicHost Image Hosting",
+  "e7b6785d": "pichost.cloud",
+  "1fc59259": "Just a personal image hosting service, all deployed on Alibaba Cloud domestic nodes, with storage nodes in Shanghai, China. The access speed should already be quite fast. Commercial use is prohibited, and uploading illegal or non-compliant content is also prohibited.",
+  "4bcd15c5": "### Kecare",
+  "a5d3c103": "[Pamperkyumi/kecare: Kecare is a generator framework for modern static blogs and note sites. Its biggest goal is not to \"make another Hexo\", but to separate the content system from themes/frameworks, making your blog capabilities into \"pluggable modules\" meow~](https://github.com/Pamperkyumi/kecare)",
+  "cb005893": "Kecare has probably reached the level of completeness where it can be launched for testing, meow. Later, I will improve the Kecare user guide for everyone to use. You are also welcome to improve Kecare, meow. Star and PR are welcome.",
+  "7d0f3647": "### Fioralune Awards (Flower Moon Award)",
+  "77951dde": "The Huayue Award is a project I created to give myself an award (bushi). It's an award for indie developers, and it might take a long time to launch because I'm so lazy.",
+  "1f3fbc49": "## Milkio",
+  "8181854c": "[Milkio --- Milkio](https://milkio.fun/)",
+  "51c6bc4a": "[akirarika/milkio: 🌟 A TypeScript Framework - Now, break the boundaries between Frontend and Backend](https://github.com/akirarika/milkio)",
+  "a8d8d392": "It is a TypeScript full-stack framework that supports Bun and any runtime.",
+  "5f64e7d2": "### CS Tournament Fioralune CS2 Competition",
+  "fc74a18a": "Simply because watching the Xpl competition was so terrible, and then on a whim, I came up with this. The S1 season was still passable. Since everyone wants S2 so much, let's turn it into a long-term project for Fioralune. The prize money for the competition comes from everyone's sponsorship. You can see the specific prize fund flow at [Flower Moon · Sponsorship - Pamper's blog](https://kecare.me/sponsor/)"
+}

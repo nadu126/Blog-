@@ -6,7 +6,7 @@ export const navItems: NavItem[] = [
         level: 1,
         items: [
             { text: '关于我', link: './关于我.md', level: 2 },
-            { text: '缓存机制', link: './kecare的缓存.md', level: 2 },
+            { text: '快速开始', link: './快速开始.md', level: 2 },
             { text: '项目结构', link: './项目结构.md', level: 2 },
         ],
     },
@@ -22,12 +22,19 @@ export const navItems: NavItem[] = [
         ],
     },
     {
-        text: '主题开发',
+        text: '主题开发(待完善)',
         level: 1,
         items: [
             { text: '落地页', link: './主题开发落地页.md', level: 2 },
             { text: '文章页', link: './主题开发文章页.md', level: 2 },
             { text: '归档页', link: './主题开发归档页.md', level: 2 },
+        ],
+    },
+    {
+        text: '更多',
+        level: 1,
+        items: [
+            { text: '缓存机制', link: './kecare的缓存.md', level: 2 },
         ],
     },
     {

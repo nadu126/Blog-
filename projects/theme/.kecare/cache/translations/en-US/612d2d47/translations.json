@@ -1,5 +1,6 @@
 {
   "45223993": "### Start the Development Server",
+  "51625251": "![安装向导](http://img.pichost.cloud/images/1785680820894.png)",
   "2c7d8b08": "Quick Start",
   "15c627e2": "Getting started with Kecare is quite simple. Just install the Kecare CLI, and it will help you start a Kecare project from scratch. It will guide you through each step of setting up a new project and allow you to choose from several different official starter templates. If you just want to quickly integrate a blog/documentation site into your existing project, please read",
   "b8f977f6": "Prerequisites",
@@ -26,5 +27,21 @@
   "8bc09294": "__CODE_BLOCK_7__",
   "20af8b3b": "Our theme is built with Nuxt, but in actual use, Kecare does not restrict your choice of framework, so we will not go into much detail about the Nuxt directory.",
   "b8eb84bf": "You can write your markdown articles in `.kecare/articls/`, and then use `kecare gen .` to generate the corresponding pages.",
-  "e3870281": "After the generator has finished generating all the required pages, you can use `npm run dev` to start your development server."
+  "e3870281": "After the generator has finished generating all the required pages, you can use `npm run dev` to start your development server.",
+  "ab71f5cf": "Welcome to Kecare. Using Kecare is quite simple. This document will help you get started quickly. If you encounter any issues during use, please ask on [Github](https://github.com/Pamperkyumi/kecare/issues).",
+  "92a52e93": "Before using Kecare, you need to install the following applications.",
+  "cd4b971d": "- Node.js - v22 or higher\n- Text editor - for example, Vscode\n- Bun - recommended (meow)",
+  "8073af00": "## Install via CLI",
+  "7f10ecb1": "You can run `create kecare` anywhere on your machine, so there's no need to create a new empty directory for the project before starting. If you don't already have an empty directory ready for the new project, the wizard will automatically create one for you.",
+  "2c7b641d": "If everything goes well, you will see a message similar to the one below. It is also recommended that you use the template provided by Kecare to work with Kecare.",
+  "f19467ab": "Now your project has been created, you can `cd` into the new project directory and start using Kecare.",
+  "3748cf3e": "Install dependencies",
+  "841ea120": "请提供需要翻译的文章内容。我会严格按照要求保留所有 HTML/Markdown 标签和属性，代码块内容不翻译，只翻译文本节点，并保留链接 `href`、图片 `src`、`id`、`class` 等原样不动。代码块占位符（如 `__CODE_BLOCK_0__`）也会原样保留。",
+  "366c84fa": "`kecare gen .`",
+  "3beb16f6": "Start the local server.",
+  "db381e8d": "__CODE_BLOCK_5__",
+  "dd4502bd": "If everything goes well, you will also see a message similar to the following.",
+  "8e118a64": "![Start server](http://img.pichost.cloud/images/1785681846899.png)",
+  "97d63e14": "Hold down Ctrl and click the \"Local\" link in the figure to preview your website in the local browser.",
+  "36fbf9ea": "Now you can start learning about Kecare's project structure and how to write articles and themes."
 }

@@ -6,28 +6,31 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "花月项目",
+    "title": "花月",
     "isOriginalLang": true,
-    "desc": "Fioralune（花月） Pamper享有对Fioralune的最终解释权 目前正在举行的天天禄杯和以后可能主要以Fioralune Championship举办的比赛，以及目前还未正式上线的个人开发者奖项Fioralune Awards...",
-    "hash": "4709c150",
-    "relativePath": "/花月项目.md",
+    "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
+    "hash": "54f6a7aa",
+    "relativePath": "/花月.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "花月项目",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "花月",
       "tags": [],
-      "desc": "Fioralune（花月） Pamper享有对Fioralune的最终解释权 目前正在举行的天天禄杯和以后可能主要以Fioralune Championship举办的比赛，以及目前还未正式上线的个人开发者奖项Fioralune Awards...",
+      "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
       "translate": [
-        "zh-CN"
+        "zh-CN",
+        "en-US",
+        "ja-JP"
       ],
       "sticky": 5,
       "author": "Pamper",
       "date": "2026-07-04",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4709c150.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/4709c150",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4709c150.vue",
-    "urlPath": "articles/zh-CN/4709c150"
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\54f6a7aa.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/54f6a7aa",
+    "__SKIP_ARTICLE_GENERATOR__": true,
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\54f6a7aa.vue",
+    "urlPath": "articles/zh-CN/54f6a7aa"
   },
   {
     "lang": "zh-CN",
@@ -37,7 +40,7 @@
     "hash": "aff462d2",
     "relativePath": "/天天禄杯S2.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "天天禄杯S2",
       "tags": [],
       "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
@@ -51,6 +54,7 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/aff462d2",
+    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
     "urlPath": "articles/zh-CN/aff462d2"
   },
@@ -63,7 +67,7 @@
     "hash": "2f0fd1f2",
     "relativePath": "/关于我.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "关于我",
       "menu": "test",
       "tags": [],
@@ -80,6 +84,7 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f0fd1f2",
+    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
     "urlPath": "articles/zh-CN/2f0fd1f2"
   },
@@ -109,6 +114,7 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/8246c8ed",
+    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
     "urlPath": "articles/zh-CN/8246c8ed"
   },
@@ -127,7 +133,9 @@
       "tags": [],
       "desc": "快速开始 欢迎使用 Kecare，使用Kecare相当之简单，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请在Github上提问。 在使用 Kecare 之前，你需要先安装下列应用程序 Node.js - v22 或更高版本 文本...",
       "translate": [
-        "zh-CN"
+        "zh-CN",
+        "en-US",
+        "ja-JP"
       ],
       "sticky": 0,
       "author": "Pamper",
