@@ -3,8 +3,7 @@ title: Kecare的缓存
 date: 2026-08-02
 author: Pamper
 menu: test
-translate:
-  - zh-CN
+translate: ['zh-CN', 'en-US', 'ja-JP']
 ---
 
 # Kecare的缓存

@@ -30,7 +30,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\39f6b230.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/39f6b230",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\39f6b230.vue",
     "urlPath": "articles/zh-CN/39f6b230"
   },
@@ -60,7 +59,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\6e8c5f0b.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/6e8c5f0b",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\6e8c5f0b.vue",
     "urlPath": "articles/zh-CN/6e8c5f0b"
   },
@@ -73,7 +71,7 @@
     "hash": "493f5fa2",
     "relativePath": "/国际化处理.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "国际化处理",
       "menu": "test",
       "tags": [],
@@ -90,7 +88,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\493f5fa2.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/493f5fa2",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\493f5fa2.vue",
     "urlPath": "articles/zh-CN/493f5fa2"
   },
@@ -125,7 +122,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\43fc313b.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/43fc313b",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\43fc313b.vue",
     "urlPath": "articles/zh-CN/43fc313b"
   },
@@ -138,7 +134,7 @@
     "hash": "4ee23999",
     "relativePath": "/菜单系统.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "菜单系统",
       "menu": "test",
       "tags": [
@@ -160,7 +156,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4ee23999.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/4ee23999",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4ee23999.vue",
     "urlPath": "articles/zh-CN/4ee23999"
   }

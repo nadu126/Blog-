@@ -26,7 +26,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4709c150.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/4709c150",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4709c150.vue",
     "urlPath": "articles/zh-CN/4709c150"
   },
@@ -52,7 +51,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/aff462d2",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
     "urlPath": "articles/zh-CN/aff462d2"
   },
@@ -65,7 +63,7 @@
     "hash": "2f0fd1f2",
     "relativePath": "/关于我.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "关于我",
       "menu": "test",
       "tags": [],
@@ -82,7 +80,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f0fd1f2",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
     "urlPath": "articles/zh-CN/2f0fd1f2"
   },
@@ -95,13 +92,15 @@
     "hash": "8246c8ed",
     "relativePath": "/kecare的缓存.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "Kecare的缓存",
       "menu": "test",
       "tags": [],
       "desc": "Kecare的缓存 Kecare作为一个静态网站生成器，在处理大量文章时面临着性能上的挑战。如果不采取任何缓存策略，每次生成都需要重新解析所有Markdown文件、重新调用AI翻译、重新生成HTML页面。随着文章数量的增长，这个过程会变得越...",
       "translate": [
-        "zh-CN"
+        "zh-CN",
+        "en-US",
+        "ja-JP"
       ],
       "sticky": 0,
       "author": "Pamper",
@@ -110,7 +109,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/8246c8ed",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
     "urlPath": "articles/zh-CN/8246c8ed"
   },
@@ -138,7 +136,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/95bb100b",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
     "urlPath": "articles/zh-CN/95bb100b"
   }
