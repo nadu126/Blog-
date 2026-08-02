@@ -16,13 +16,16 @@ export async function executeCleanCommand(params: Params) {
     }
 
     const generatedArticlesPath = join(projectPath, 'app', 'pages', 'articles');
+    const translationsCachePath = join(projectPath, '.kecare', 'cache', 'translations');
     const markdownCachePath = join(projectPath, '.kecare', 'cache', 'markdown-manifest.json');
     const searchCachePath = join(projectPath, 'public', 'articles');
 
     await rm(generatedArticlesPath, { recursive: true, force: true });
+    await rm(translationsCachePath, { recursive: true, force: true });
     await rm(markdownCachePath, { force: true });
     await rm(searchCachePath, { recursive: true, force: true });
     consola.success(`Cleaned generated articles: ${generatedArticlesPath}`);
+    consola.success(`Cleaned translations cache: ${translationsCachePath}`);
     consola.success(`Cleaned markdown cache: ${markdownCachePath}`);
     consola.success(`Clean search Cache: ${searchCachePath}`)
 }

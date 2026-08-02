@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { computed, onMounted, nextTick, ref } from "vue"
-import SakanaWidget from 'sakana-widget';
 import 'sakana-widget/lib/index.css';
 import Navbar from '~/components/Theme/Sidebar/Navbar.vue'
 import AuthorCard from '~/components/Theme/Sidebar/author-card.vue'

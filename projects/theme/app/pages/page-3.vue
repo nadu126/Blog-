@@ -6,64 +6,6 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "在已有项目上使用kecare",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "在已有项目上使用 Kecare 在已有项目中集成 Kecare，为项目添加文档/博客功能。 目录结构 安装 ::: tabs @tab bun @tab npm @tab pnpm ::: 文章详情页生成器 创建 .article.ts 文...",
-    "hash": "95140e73",
-    "relativePath": "/在已有项目上使用kecare.md",
-    "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
-      "title": "在已有项目上使用kecare",
-      "menu": "test",
-      "tags": [],
-      "desc": "在已有项目上使用 Kecare 在已有项目中集成 Kecare，为项目添加文档/博客功能。 目录结构 安装 ::: tabs @tab bun @tab npm @tab pnpm ::: 文章详情页生成器 创建 .article.ts 文...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-03-11",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95140e73.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/95140e73",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95140e73.vue",
-    "urlPath": "articles/zh-CN/95140e73"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "Kecare从这里开始喵",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "关于 Kecare [!WARNING] 由于本人时间原因，Kecare的bug目前好多都没修复。建议先不要用了喵哇哇哇哇哇哇哇哇。对不起喵，我是废物喵 Kecare 是一个静态博客生成器，核心特点是非侵入式设计——把内容系统从主题/框架中...",
-    "hash": "70e6923c",
-    "relativePath": "/Kecare从这里开始喵.md",
-    "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
-      "title": "Kecare从这里开始喵",
-      "menu": "test",
-      "tags": [],
-      "desc": "关于 Kecare [!WARNING] 由于本人时间原因，Kecare的bug目前好多都没修复。建议先不要用了喵哇哇哇哇哇哇哇哇。对不起喵，我是废物喵 Kecare 是一个静态博客生成器，核心特点是非侵入式设计——把内容系统从主题/框架中...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-03-10",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\70e6923c.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/70e6923c",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\70e6923c.vue",
-    "urlPath": "articles/zh-CN/70e6923c"
-  },
-  {
-    "lang": "zh-CN",
     "title": "markdown扩展",
     "isOriginalLang": true,
     "menu": "test",
@@ -71,7 +13,7 @@
     "hash": "b40d18d1",
     "relativePath": "/markdown扩展.md",
     "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "markdown扩展",
       "menu": "test",
       "tags": [],
@@ -88,7 +30,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/b40d18d1",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
     "urlPath": "articles/zh-CN/b40d18d1"
   },
@@ -101,7 +42,7 @@
     "hash": "39f6b230",
     "relativePath": "/Github pages.md",
     "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "Github pages",
       "menu": "test",
       "tags": [],
@@ -118,7 +59,6 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\39f6b230.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/39f6b230",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\39f6b230.vue",
     "urlPath": "articles/zh-CN/39f6b230"
   },
@@ -131,7 +71,7 @@
     "hash": "6e8c5f0b",
     "relativePath": "/写作.md",
     "frontMatter": {
-      "cover": "https://free.picui.cn/free/2026/05/20/6a0dcd06916f0.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "写作",
       "menu": "test",
       "tags": [],
@@ -148,14 +88,76 @@
     },
     "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\6e8c5f0b.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/6e8c5f0b",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\6e8c5f0b.vue",
     "urlPath": "articles/zh-CN/6e8c5f0b"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "国际化处理",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "国际化处理 Kecare 可使用 Ai 为你的文章翻译成多种语言， 让文章触达多语言读者。 启用翻译 在 Kecare 中使用翻译也非常简单，仅需在所需翻译的文章 Front Matter 中添加 translate 字段： 第一个语言代码...",
+    "hash": "493f5fa2",
+    "relativePath": "/国际化处理.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "国际化处理",
+      "menu": "test",
+      "tags": [],
+      "desc": "国际化处理 Kecare 可使用 Ai 为你的文章翻译成多种语言， 让文章触达多语言读者。 启用翻译 在 Kecare 中使用翻译也非常简单，仅需在所需翻译的文章 Front Matter 中添加 translate 字段： 第一个语言代码...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 0,
+      "author": "Pamper",
+      "date": "2026-03-03",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\493f5fa2.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/493f5fa2",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\493f5fa2.vue",
+    "urlPath": "articles/zh-CN/493f5fa2"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "贡献指南",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "贡献指南 感谢你对 Kecare 项目的关注！ 开发环境 Node.js Bun（推荐） 项目结构 本地开发 代码规范 项目使用 oxlint 和 oxfmt 进行代码检查和格式化： 提交前请确保代码通过检查。 提交规范 提交信息格式： 类...",
+    "hash": "43fc313b",
+    "relativePath": "/贡献指南.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "贡献指南",
+      "menu": "test",
+      "tags": [
+        "菜单",
+        "导航",
+        "测试",
+        "Kecare"
+      ],
+      "desc": "贡献指南 感谢你对 Kecare 项目的关注！ 开发环境 Node.js Bun（推荐） 项目结构 本地开发 代码规范 项目使用 oxlint 和 oxfmt 进行代码检查和格式化： 提交前请确保代码通过检查。 提交规范 提交信息格式： 类...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 0,
+      "author": "Pamper",
+      "date": "2026-03-02",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\43fc313b.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/43fc313b",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\43fc313b.vue",
+    "urlPath": "articles/zh-CN/43fc313b"
   }
 ]
                 const currentPage = 3
                 const totalPages = 4
-                const totalArticles = 20
+                const totalArticles = 16
                 const totalTags = 9
 
                 </script>

@@ -1,0 +1,19 @@
+{
+  "b4196acb": "# Internationalization Handling",
+  "e07c0a02": "Kecare can use AI to translate your articles into multiple languages, helping your content reach multilingual readers.",
+  "c197cf2d": "## Enable Translation",
+  "7654c173": "Using translation in Kecare is also very simple, just add the `translate` field to the Front Matter of the article you want to translate:",
+  "b44396ce": "__CODE_BLOCK_0__",
+  "d60758d8": "请提供需要翻译的文章内容，我才能按照您的要求（保留 HTML/Markdown 标签、不翻译代码块等）进行翻译。",
+  "8ff8c151": "## Configuring Translation Service",
+  "18f36207": "In the `.kecare` directory, create a new `kecare.config.ts` file.",
+  "2dd3bae3": "Then configure LLM in `.kecare/kecare.config.ts `:",
+  "a9fa17cb": "__CODE_BLOCK_1__",
+  "e744ecf0": "Supports any service compatible with OpenAI API and Anthropic API formats.",
+  "d4218622": "## Common Language Codes",
+  "feaa9d93": "| Language | Code |\n|------|------|\n| Simplified Chinese | `zh-CN` |\n| English | `en-US` |\n| Japanese | `ja-JP` |\n| Korean | `ko-KR` |\n| Traditional Chinese | `zh-TW` |",
+  "6080737d": "Language codes follow the BCP 47 standard: `语言-地区` (e.g., `en-GB`, `pt-BR`).",
+  "e132d898": "## Caching and Incremental Updates",
+  "44b4303f": "Translation results are cached in the `.kecare/.tmp` directory, and on the next build, only the modified parts are translated. This maximizes savings on token costs.",
+  "8327a5bf": "To clear the cache, simply delete the `.tmp` directory."
+}

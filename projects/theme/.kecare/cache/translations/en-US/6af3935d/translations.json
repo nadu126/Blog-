@@ -1,0 +1,10 @@
+{
+  "b2dbbe61": "# Generator CLI",
+  "9806f96e": "好的，我明白了。请发送需要翻译的文章内容，我会按照您的要求：\n\n- 只翻译文本节点内容\n- 保留所有 HTML/Markdown 标签和属性不变\n- 代码块（如 `__CODE_BLOCK_0__` 占位符）和代码内容不翻译，原样保留\n- 链接 href、图片 src、id、class 等属性保持不变\n\n请把文章发给我吧。",
+  "566995b6": "## Command",
+  "1610b7f8": "| 命令 | 说明 |\n|------|------|\n| `kecare gen <path>` | Build the site and generate page files |\n| `kecare -version` | View the current version |",
+  "2dd3e7cc": "## Usage Examples",
+  "b44396ce": "__CODE_BLOCK_0__",
+  "9fbd2950": "## Execution Flow",
+  "6027aba9": "1. Scan Markdown files under `.kecare/articles/`\n2. Parse Front Matter and body content\n3. Execute translation (if `translate` is configured)\n4. Run `*.article.ts` and `*.list.ts` to generate pages\n5. Output files to the specified directory"
+}

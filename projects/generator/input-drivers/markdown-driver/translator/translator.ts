@@ -140,7 +140,7 @@ export async function translator(options: TranslationConfigOptions): Promise<[st
 
     // Cache path
     const titleHash = Bun.hash.xxHash3(title || "", 1234n).toString(16).slice(0, 8);
-    const cacheDir = join(KecareContext.projectPath, ".tmp", lang, titleHash);
+    const cacheDir = join(KecareContext.projectPath, ".kecare", "cache", "translations", lang, titleHash);
     mkdirSync(cacheDir, { recursive: true });
     const cacheFilePath = join(cacheDir, "translations.json");
 

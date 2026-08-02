@@ -20,6 +20,11 @@ export const navItems: NavItem[] = [
         "text": "快速开始",
         "link": "./95bb100b",
         "level": 2
+      },
+      {
+        "text": "缓存机制",
+        "link": "./8246c8ed",
+        "level": 2
       }
     ]
   },
@@ -50,17 +55,6 @@ export const navItems: NavItem[] = [
       {
         "text": "部署到GitHub Pages",
         "link": "./39f6b230",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "text": "进阶",
-    "level": 1,
-    "items": [
-      {
-        "text": "在已有项目上使用kecare",
-        "link": "./95140e73",
         "level": 2
       }
     ]

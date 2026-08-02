@@ -1,0 +1,17 @@
+{
+  "72652954": "The `articles` data type received by the archive page component is `ArchiveArticleData`, defined as follows:",
+  "83638e37": "# Archive Page",
+  "55bbd599": "The archive page is a page in a blog that displays all articles in chronological order, usually presented in a timeline format, making it convenient for readers to browse and find historical articles.",
+  "38cb9e36": "## Archive Page Template",
+  "6f42f917": "The archive page template is an `.archive.ts` file, located in the `.kecare/` directory. The generator calls it after processing all articles to generate the archive page.",
+  "8c20bc0a": "## A Runnable Template",
+  "7b982cb8": "Create the file `.kecare/archive.archive.ts`:",
+  "b44396ce": "__CODE_BLOCK_0__",
+  "76b38bd4": ".archive.ts needs to return an object containing `fsPath` and `template`; the generator will use this information to generate the archive page. Unlike the landing page, archive pages usually don't require pagination; all articles are displayed on a single page, grouped by year.",
+  "634f748f": "## Page Components",
+  "f1201a79": "We called the `<ArchiveLanding/>` component in the template. Next, let's write the archive page component:",
+  "a9fa17cb": "__CODE_BLOCK_1__",
+  "754c5903": "## ArchiveArticleData Type",
+  "6e598c92": "__CODE_BLOCK_2__",
+  "8ab5b12e": "Unlike landing pages, archive pages have a more streamlined data structure, containing only the basic information needed for archive display, which helps reduce the size of generated pages."
+}

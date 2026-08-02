@@ -1,0 +1,18 @@
+{
+  "5bf3f3b3": "# Writing",
+  "690026d0": "In Kecare, articles are stored in the `主题目录/.kecare/articles/` directory, and currently only Markdown files are supported.",
+  "23001abe": "## Creating an Article",
+  "ab3dc717": "1. Create a `.md` file in the `.kecare/articles/` directory  \n2. Write the content",
+  "21c1f8a1": "## Article Structure",
+  "1d5cf636": "The article consists of **Front Matter** and **body content**:",
+  "b44396ce": "__CODE_BLOCK_0__",
+  "8fe1eb0a": "# Front Matter",
+  "d098603a": "Every article can have a section of **Front Matter** written at the beginning (in YAML format), used to provide the article's metadata, such as: title, date, tags, description, author, cover, pinned, menu, etc.",
+  "1619fb92": "Front Matter 是位于 Markdown 文件开头的 YAML 格式元数据块，以 `---` 分隔。Kecare 会解析这些元数据，并将其传递给主题组件使用。",
+  "68fccb0f": "## Complete Example",
+  "aaa68bfb": "Below is an example of Front Matter for all fields currently supported in Kecare:",
+  "a9fa17cb": "__CODE_BLOCK_1__",
+  "e10755e6": "You don't need to add all Front Matter fields for every article. Currently only the date field is required. For other fields, if you don't provide values, Kecare will use default values.",
+  "86aa6958": "## Running the Generator",
+  "2b4353a7": "After writing, run the generator to preview it in the browser."
+}

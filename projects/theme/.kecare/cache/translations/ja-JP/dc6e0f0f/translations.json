@@ -1,0 +1,4 @@
+{
+  "3541a83d": "# Alibaba Cloud ESA",
+  "2ed1cc62": "Kecareは当初Github Pagesにデプロイされていましたが、国内からのアクセス速度が非常に遅いことに気づき、Alibaba CloudとTencent Cloudの両方がエッジセキュリティアクセラレーションプラットフォームを提供していることを発見しました。Tencent CloudのEdgeOneとAlibaba CloudのESAです。少し時間をかけてKecareをAlibaba Cloudにデプロイしました。"
+}

@@ -1,0 +1,15 @@
+{
+  "c49d5ebc": "# Menu System",
+  "6db5bbbc": "Kecare provides a unified menu configuration approach for generating the sidebar navigation.",
+  "89dd8050": "## Creating a Menu",
+  "fe8b86d1": "Menu files are stored in the `.kecare/menus/` directory, with the naming format `<名称>.menu.source.ts`:",
+  "b44396ce": "__CODE_BLOCK_0__",
+  "58d58d99": "File name prefix (such as `kecare-docs`) is the `menu` value referenced in the article.",
+  "ddbd955b": "## Enable in the Article",
+  "4aaa37ba": "Add the `menu` field in Front Matter:",
+  "a9fa17cb": "__CODE_BLOCK_1__",
+  "ded352e5": "The `menu` value corresponds to the menu file name prefix: `kecare-docs` → `kecare-docs.menu.source.ts`",
+  "a3d628e6": "## NavItem Structure",
+  "6e598c92": "__CODE_BLOCK_2__",
+  "fcd33f63": "- **Leaf nodes**: clickable for navigation, with `link` being the article path (e.g., `./快速开始`)\n- **Group nodes**: for categorization only, containing an `items` subarray"
+}

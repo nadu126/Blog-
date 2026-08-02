@@ -98,8 +98,12 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
         const frontMatterStr = parseFrontMatter(rawContent);
         let rawFrontMatter = YAML.parse(frontMatterStr) as FrontMatter;
         if (!rawFrontMatter) throw new Error(`[markdown] ${fsPath} 中的 frontmatter 不能为空,请检查文档格式`);
+
         let rawMarkdown = frontMatterStr ? rawContent.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '') : rawContent;
+
+
         const cover = rawFrontMatter.cover
+        console.log(`[markdown] ${fsPath} 中的 cover 字段值为 ${cover}`);
         let finalCover = cover;
         if (!finalCover) {
             const themeConfig = await useThemeConfig(context);
@@ -107,6 +111,7 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
             if (images && images.length > 0) {
                 const randomIndex = Math.floor(Math.random() * images.length);
                 finalCover = images[randomIndex];
+                console.log(`[markdown] ${fsPath} 中的 cover 字段为空,已随机选择 ${finalCover}`);
             }
         }
 

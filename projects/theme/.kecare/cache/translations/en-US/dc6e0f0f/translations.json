@@ -1,0 +1,4 @@
+{
+  "3541a83d": "Alibaba Cloud ESA",
+  "2ed1cc62": "Kecare was initially deployed on GitHub Pages, but I found that access speed in China was really poor. Then I discovered that both Alibaba Cloud and Tencent Cloud have launched edge security acceleration platforms: Tencent Cloud's EdgeOne and Alibaba Cloud's ESA. I spent some time deploying Kecare to Alibaba Cloud."
+}
