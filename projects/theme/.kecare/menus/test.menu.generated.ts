@@ -25,6 +25,11 @@ export const navItems: NavItem[] = [
         "text": "缓存机制",
         "link": "./8246c8ed",
         "level": 2
+      },
+      {
+        "text": "项目结构",
+        "link": "./37e86293",
+        "level": 2
       }
     ]
   },
@@ -63,11 +68,6 @@ export const navItems: NavItem[] = [
     "text": "主题开发",
     "level": 1,
     "items": [
-      {
-        "text": "前言",
-        "link": "./e5dbc117",
-        "level": 2
-      },
       {
         "text": "落地页",
         "link": "./e52553ad",

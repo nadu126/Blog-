@@ -1,9 +1,0 @@
-{
-  "title": "Preface to Theme Development",
-  "lang": "en-US",
-  "hash": "e5dbc117",
-  "tags": [],
-  "date": "2026-03-21",
-  "urlPath": "articles/en-US/e5dbc117",
-  "content": "# Thank you for contributing to the Kecare theme ecosystem\n\nKecare was born not long ago and is far behind other blog or documentation site frameworks in the theme ecosystem. Therefore, Kecare welcomes everyone to contribute themes and add strength to the Kecare theme ecosystem~\n\nThis guide will walk you through how to write a theme for others to use.\n\n好的，我准备好了！请发送需要翻译的文章内容，我会严格按照您的要求进行翻译：\n\n1. **HTML/Markdown标签及属性不变**，不增删\n2. **代码块内容不翻译**，原样保留\n3. **仅翻译文本节点**\n4. **代码块占位符**（如`__CODE_BLOCK_0__`）原样保留\n5. **链接href、图片src、id、class属性保持不动**\n\n请把文章发过来吧~"
-}

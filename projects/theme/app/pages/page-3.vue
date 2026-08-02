@@ -6,35 +6,6 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "markdown扩展",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
-    "hash": "b40d18d1",
-    "relativePath": "/markdown扩展.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "markdown扩展",
-      "menu": "test",
-      "tags": [],
-      "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-03-09",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/b40d18d1",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
-    "urlPath": "articles/zh-CN/b40d18d1"
-  },
-  {
-    "lang": "zh-CN",
     "title": "Github pages",
     "isOriginalLang": true,
     "menu": "test",
@@ -71,7 +42,7 @@
     "hash": "6e8c5f0b",
     "relativePath": "/写作.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "写作",
       "menu": "test",
       "tags": [],
@@ -100,7 +71,7 @@
     "hash": "493f5fa2",
     "relativePath": "/国际化处理.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "国际化处理",
       "menu": "test",
       "tags": [],
@@ -153,11 +124,45 @@
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/43fc313b",
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\43fc313b.vue",
     "urlPath": "articles/zh-CN/43fc313b"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "菜单系统",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "菜单系统 Kecare 提供统一的菜单配置方式，用于生成侧边导航栏。 创建菜单 菜单文件存放在 .kecare/menus/ 目录，命名格式为 .menu.source.ts： 文件名前缀（如 kecare-docs）是文章中引用的 men...",
+    "hash": "4ee23999",
+    "relativePath": "/菜单系统.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "菜单系统",
+      "menu": "test",
+      "tags": [
+        "菜单",
+        "导航",
+        "测试",
+        "Kecare"
+      ],
+      "desc": "菜单系统 Kecare 提供统一的菜单配置方式，用于生成侧边导航栏。 创建菜单 菜单文件存放在 .kecare/menus/ 目录，命名格式为 .menu.source.ts： 文件名前缀（如 kecare-docs）是文章中引用的 men...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 0,
+      "author": "Pamper",
+      "date": "2026-03-01",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4ee23999.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/4ee23999",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\4ee23999.vue",
+    "urlPath": "articles/zh-CN/4ee23999"
   }
 ]
                 const currentPage = 3
-                const totalPages = 4
-                const totalArticles = 16
+                const totalPages = 3
+                const totalArticles = 15
                 const totalTags = 9
 
                 </script>

@@ -12,7 +12,7 @@
     "hash": "4709c150",
     "relativePath": "/花月项目.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "花月项目",
       "tags": [],
       "desc": "Fioralune（花月） Pamper享有对Fioralune的最终解释权 目前正在举行的天天禄杯和以后可能主要以Fioralune Championship举办的比赛，以及目前还未正式上线的个人开发者奖项Fioralune Awards...",
@@ -37,7 +37,7 @@
     "hash": "aff462d2",
     "relativePath": "/天天禄杯S2.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "天天禄杯S2",
       "tags": [],
       "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
@@ -92,7 +92,7 @@
     "hash": "95bb100b",
     "relativePath": "/快速开始.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "快速开始",
       "menu": "test",
       "tags": [],
@@ -139,8 +139,8 @@
   }
 ]
                 const currentPage = 1
-                const totalPages = 4
-                const totalArticles = 16
+                const totalPages = 3
+                const totalArticles = 15
                 const totalTags = 9
 
                 </script>

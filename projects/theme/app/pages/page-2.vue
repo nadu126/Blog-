@@ -13,7 +13,7 @@
     "hash": "37e86293",
     "relativePath": "/项目结构.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "项目结构",
       "menu": "test",
       "tags": [],
@@ -33,50 +33,22 @@
   },
   {
     "lang": "zh-CN",
-    "title": "主题开发前言",
+    "title": "主题开发落地页",
     "isOriginalLang": true,
     "menu": "test",
-    "desc": "感谢你为 Kecare 主题生态做出贡献 Kecare 诞生不久，在主题生态中，远远不及其他博客或文档站框架，所以 Kecare 非常欢迎大家贡献主题，为 Kecare 主题生态贡献力量~ 本目录将带你开始如何编写一个主题供大家使用 开始了...",
-    "hash": "e5dbc117",
-    "relativePath": "/主题开发前言.md",
+    "desc": "落地页 当将 Kecare 用作博客时，我们需要一个落地页（即首页），用于展示博客的文章列表。 落地页模板 落地页模板是一个 .list.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用于生成文章列表页面。...",
+    "hash": "e52553ad",
+    "relativePath": "/主题开发落地页.md",
     "frontMatter": {
       "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
-      "title": "主题开发前言",
-      "menu": "test",
-      "tags": [],
-      "desc": "感谢你为 Kecare 主题生态做出贡献 Kecare 诞生不久，在主题生态中，远远不及其他博客或文档站框架，所以 Kecare 非常欢迎大家贡献主题，为 Kecare 主题生态贡献力量~ 本目录将带你开始如何编写一个主题供大家使用 开始了...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-03-21",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e5dbc117.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/e5dbc117",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e5dbc117.vue",
-    "urlPath": "articles/zh-CN/e5dbc117"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "主题开发归档页",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
-    "hash": "93b7f9a7",
-    "relativePath": "/主题开发归档页.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "主题开发归档页",
+      "title": "主题开发落地页",
       "menu": "test",
       "tags": [
         "主题开发",
-        "归档页"
+        "落地页",
+        "列表页"
       ],
-      "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
+      "desc": "落地页 当将 Kecare 用作博客时，我们需要一个落地页（即首页），用于展示博客的文章列表。 落地页模板 落地页模板是一个 .list.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用于生成文章列表页面。...",
       "translate": [
         "zh-CN",
         "en-US",
@@ -87,10 +59,10 @@
       "date": "2026-03-21",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/93b7f9a7",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
-    "urlPath": "articles/zh-CN/93b7f9a7"
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e52553ad.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/e52553ad",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e52553ad.vue",
+    "urlPath": "articles/zh-CN/e52553ad"
   },
   {
     "lang": "zh-CN",
@@ -101,7 +73,7 @@
     "hash": "989b9235",
     "relativePath": "/主题开发文章页.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "主题开发文章页",
       "menu": "test",
       "tags": [
@@ -126,22 +98,21 @@
   },
   {
     "lang": "zh-CN",
-    "title": "主题开发落地页",
+    "title": "主题开发归档页",
     "isOriginalLang": true,
     "menu": "test",
-    "desc": "落地页 当将 Kecare 用作博客时，我们需要一个落地页（即首页），用于展示博客的文章列表。 落地页模板 落地页模板是一个 .list.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用于生成文章列表页面。...",
-    "hash": "e52553ad",
-    "relativePath": "/主题开发落地页.md",
+    "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
+    "hash": "93b7f9a7",
+    "relativePath": "/主题开发归档页.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "主题开发落地页",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "主题开发归档页",
       "menu": "test",
       "tags": [
         "主题开发",
-        "落地页",
-        "列表页"
+        "归档页"
       ],
-      "desc": "落地页 当将 Kecare 用作博客时，我们需要一个落地页（即首页），用于展示博客的文章列表。 落地页模板 落地页模板是一个 .list.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用于生成文章列表页面。...",
+      "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
       "translate": [
         "zh-CN",
         "en-US",
@@ -152,15 +123,44 @@
       "date": "2026-03-21",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e52553ad.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/e52553ad",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\e52553ad.vue",
-    "urlPath": "articles/zh-CN/e52553ad"
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/93b7f9a7",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
+    "urlPath": "articles/zh-CN/93b7f9a7"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "markdown扩展",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
+    "hash": "b40d18d1",
+    "relativePath": "/markdown扩展.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "markdown扩展",
+      "menu": "test",
+      "tags": [],
+      "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 0,
+      "author": "Pamper",
+      "date": "2026-03-09",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/b40d18d1",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
+    "urlPath": "articles/zh-CN/b40d18d1"
   }
 ]
                 const currentPage = 2
-                const totalPages = 4
-                const totalArticles = 16
+                const totalPages = 3
+                const totalArticles = 15
                 const totalTags = 9
 
                 </script>

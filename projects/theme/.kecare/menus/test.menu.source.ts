@@ -26,7 +26,6 @@ export const navItems: NavItem[] = [
         text: '主题开发',
         level: 1,
         items: [
-            { text: '前言', link: './主题开发前言.md', level: 2 },
             { text: '落地页', link: './主题开发落地页.md', level: 2 },
             { text: '文章页', link: './主题开发文章页.md', level: 2 },
             { text: '归档页', link: './主题开发归档页.md', level: 2 },
