@@ -1,4 +1,4 @@
-<!-- Generated: 2026-08-02T20:24:58.601Z -->
+<!-- Generated: 2026-08-03T14:37:46.852Z -->
         <script setup lang="ts">
         import articleTheme from '~/components/Theme/article-theme.vue'
         import type { NavItem } from 'kecare'

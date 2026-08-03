@@ -43,9 +43,15 @@ async function createArticleModuleHandler(context: KecareContext) {
     return module;
 }
 
-let instancePromise: Promise<any> | null = null;
+// 以 context 为键缓存处理器实例：每次 gen 都会创建新的 context，
+// 因此同进程多次调用（测试、watch 模式）不会复用上一轮的处理器及其内部状态
+const instances = new WeakMap<KecareContext, ReturnType<typeof createArticleModuleHandler>>();
 
-export function useArticleModuleHandler(context: KecareContext): Promise<ReturnType<typeof createArticleModuleHandler>> {
-    if (!instancePromise) instancePromise = createArticleModuleHandler(context);
-    return instancePromise as Promise<ReturnType<typeof createArticleModuleHandler>>;
+export function useArticleModuleHandler(context: KecareContext): ReturnType<typeof createArticleModuleHandler> {
+    let instance = instances.get(context);
+    if (!instance) {
+        instance = createArticleModuleHandler(context);
+        instances.set(context, instance);
+    }
+    return instance;
 }

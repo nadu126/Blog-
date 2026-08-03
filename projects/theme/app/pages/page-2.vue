@@ -6,6 +6,36 @@
                 const articles = [
   {
     "lang": "zh-CN",
+    "title": "快速开始",
+    "isOriginalLang": true,
+    "menu": "test",
+    "desc": "快速开始 欢迎使用 Kecare，使用Kecare相当之简单，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请在Github上提问。 在使用 Kecare 之前，你需要先安装下列应用程序 Node.js - v22 或更高版本 文本...",
+    "hash": "95bb100b",
+    "relativePath": "/快速开始.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "title": "快速开始",
+      "menu": "test",
+      "tags": [],
+      "desc": "快速开始 欢迎使用 Kecare，使用Kecare相当之简单，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请在Github上提问。 在使用 Kecare 之前，你需要先安装下列应用程序 Node.js - v22 或更高版本 文本...",
+      "translate": [
+        "zh-CN",
+        "en-US",
+        "ja-JP"
+      ],
+      "sticky": 0,
+      "author": "Pamper",
+      "date": "2026-08-02",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/95bb100b",
+    "__SKIP_ARTICLE_GENERATOR__": true,
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
+    "urlPath": "articles/zh-CN/95bb100b"
+  },
+  {
+    "lang": "zh-CN",
     "title": "项目结构",
     "isOriginalLang": true,
     "menu": "test",
@@ -70,39 +100,6 @@
   },
   {
     "lang": "zh-CN",
-    "title": "主题开发归档页",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
-    "hash": "93b7f9a7",
-    "relativePath": "/主题开发归档页.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "主题开发归档页",
-      "menu": "test",
-      "tags": [
-        "主题开发",
-        "归档页"
-      ],
-      "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-03-21",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/93b7f9a7",
-    "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
-    "urlPath": "articles/zh-CN/93b7f9a7"
-  },
-  {
-    "lang": "zh-CN",
     "title": "主题开发文章页",
     "isOriginalLang": true,
     "menu": "test",
@@ -136,18 +133,21 @@
   },
   {
     "lang": "zh-CN",
-    "title": "markdown扩展",
+    "title": "主题开发归档页",
     "isOriginalLang": true,
     "menu": "test",
-    "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
-    "hash": "b40d18d1",
-    "relativePath": "/markdown扩展.md",
+    "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
+    "hash": "93b7f9a7",
+    "relativePath": "/主题开发归档页.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "markdown扩展",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "主题开发归档页",
       "menu": "test",
-      "tags": [],
-      "desc": "Markdown 扩展 Kecare 在标准 Markdown 语法的基础上，提供了丰富的扩展功能，让你的文档更加生动和专业。 Front Matter YAML Front Matter 开箱即用，你可以在文章开头添加元数据： 这些数据将...",
+      "tags": [
+        "主题开发",
+        "归档页"
+      ],
+      "desc": "归档页 归档页是博客中用于按时间顺序展示所有文章的页面，通常以时间轴的形式呈现，方便读者浏览和查找历史文章。 归档页模板 归档页模板是一个 .archive.ts 文件，存放在 .kecare/ 目录下。生成器会在处理完所有文章后调用它，用...",
       "translate": [
         "zh-CN",
         "en-US",
@@ -155,19 +155,19 @@
       ],
       "sticky": 0,
       "author": "Pamper",
-      "date": "2026-03-09",
+      "date": "2026-03-21",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/b40d18d1",
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/93b7f9a7",
     "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\b40d18d1.vue",
-    "urlPath": "articles/zh-CN/b40d18d1"
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\93b7f9a7.vue",
+    "urlPath": "articles/zh-CN/93b7f9a7"
   }
 ]
                 const currentPage = 2
-                const totalPages = 3
-                const totalArticles = 15
+                const totalPages = 4
+                const totalArticles = 16
                 const totalTags = 9
 
                 </script>

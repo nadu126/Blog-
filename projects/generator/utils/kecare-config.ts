@@ -17,9 +17,15 @@ async function createKecareConfig(context: KecareContext) {
     return configModule.kecareConfig(context) as KecareConfig;
 }
 
-let instancePromise: Promise<any> | null = null;
+// 以 context 为键缓存配置：每次 gen 都会创建新的 context，
+// 因此同进程多次调用（测试、watch 模式）不会复用上一轮的配置
+const instances = new WeakMap<KecareContext, ReturnType<typeof createKecareConfig>>();
 
-export function useKecareConfig(context: KecareContext): Promise<ReturnType<typeof createKecareConfig>> {
-    if (!instancePromise) instancePromise = createKecareConfig(context);
-    return instancePromise as Promise<ReturnType<typeof createKecareConfig>>;
+export function useKecareConfig(context: KecareContext): ReturnType<typeof createKecareConfig> {
+    let instance = instances.get(context);
+    if (!instance) {
+        instance = createKecareConfig(context);
+        instances.set(context, instance);
+    }
+    return instance;
 }

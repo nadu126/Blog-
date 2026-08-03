@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "articles": {
+    "/quick-start.md": {
+      "contentHash": "2c2402b26a84cd1",
+      "variants": [
+        {
+          "lang": "zh-CN",
+          "title": "快速开始",
+          "html": "<div class=\"kecare\"><h1 id=\"快速开始\">快速开始</h1>\n<p>这是快速开始文章。</p>\n</div>",
+          "isOriginalLang": true,
+          "desc": "快速开始 这是快速开始文章。",
+          "hash": "6fb77dde",
+          "relativePath": "/quick-start.md",
+          "frontMatter": {
+            "title": "快速开始",
+            "tags": [],
+            "desc": "快速开始 这是快速开始文章。",
+            "translate": [
+              "zh-CN"
+            ],
+            "sticky": 0,
+            "date": "2026-03-02",
+            "hidden": false
+          },
+          "rawMarkdown": "\n# 快速开始\n\n这是快速开始文章。\n"
+        }
+      ]
+    }
+  }
+}

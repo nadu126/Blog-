@@ -68,9 +68,15 @@ async function createSearchModuleHandler(context: KecareContext) {
     return module;
 }
 
-let instancePromise: Promise<any> | null = null;
+// 以 context 为键缓存处理器实例：每次 gen 都会创建新的 context，
+// 因此同进程多次调用（测试、watch 模式）不会复用上一轮的处理器及其内部状态
+const instances = new WeakMap<KecareContext, ReturnType<typeof createSearchModuleHandler>>();
 
-export function useSearchModuleHandler(context: KecareContext): Promise<ReturnType<typeof createSearchModuleHandler>> {
-    if (!instancePromise) instancePromise = createSearchModuleHandler(context);
-    return instancePromise as Promise<ReturnType<typeof createSearchModuleHandler>>;
+export function useSearchModuleHandler(context: KecareContext): ReturnType<typeof createSearchModuleHandler> {
+    let instance = instances.get(context);
+    if (!instance) {
+        instance = createSearchModuleHandler(context);
+        instances.set(context, instance);
+    }
+    return instance;
 }

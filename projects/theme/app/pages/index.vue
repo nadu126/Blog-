@@ -6,20 +6,43 @@
                 const articles = [
   {
     "lang": "zh-CN",
+    "title": "增量生成与热更新原理",
+    "isOriginalLang": true,
+    "desc": "Kecare 增量生成与热更新原理 一、概述 传统流程下，每改一个字都要 kecare gen 全量重跑：扫描所有文章 → 解析 Markdown → AI 翻译 → 写所有页面。这在文章多、需要翻译时非常慢。 kecare dev 解决三...",
+    "hash": "8a8cb741",
+    "relativePath": "/增量生成与热更新原理.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "title": "增量生成与热更新原理",
+      "tags": [],
+      "desc": "Kecare 增量生成与热更新原理 一、概述 传统流程下，每改一个字都要 kecare gen 全量重跑：扫描所有文章 → 解析 Markdown → AI 翻译 → 写所有页面。这在文章多、需要翻译时非常慢。 kecare dev 解决三...",
+      "translate": [
+        "zh-CN"
+      ],
+      "sticky": 5,
+      "author": "Pamper",
+      "date": "2026-08-03",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8a8cb741.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/8a8cb741",
+    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8a8cb741.vue",
+    "urlPath": "articles/zh-CN/8a8cb741"
+  },
+  {
+    "lang": "zh-CN",
     "title": "花月",
     "isOriginalLang": true,
     "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
     "hash": "54f6a7aa",
     "relativePath": "/花月.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
       "title": "花月",
       "tags": [],
       "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
       "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
+        "zh-CN"
       ],
       "sticky": 5,
       "author": "Pamper",
@@ -40,7 +63,7 @@
     "hash": "aff462d2",
     "relativePath": "/天天禄杯S2.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "天天禄杯S2",
       "tags": [],
       "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
@@ -67,7 +90,7 @@
     "hash": "2f0fd1f2",
     "relativePath": "/关于我.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
+      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
       "title": "关于我",
       "menu": "test",
       "tags": [],
@@ -117,40 +140,11 @@
     "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
     "urlPath": "articles/zh-CN/8246c8ed"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "快速开始",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "快速开始 欢迎使用 Kecare，使用Kecare相当之简单，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请在Github上提问。 在使用 Kecare 之前，你需要先安装下列应用程序 Node.js - v22 或更高版本 文本...",
-    "hash": "95bb100b",
-    "relativePath": "/快速开始.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "快速开始",
-      "menu": "test",
-      "tags": [],
-      "desc": "快速开始 欢迎使用 Kecare，使用Kecare相当之简单，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请在Github上提问。 在使用 Kecare 之前，你需要先安装下列应用程序 Node.js - v22 或更高版本 文本...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 0,
-      "author": "Pamper",
-      "date": "2026-08-02",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/95bb100b",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\95bb100b.vue",
-    "urlPath": "articles/zh-CN/95bb100b"
   }
 ]
                 const currentPage = 1
-                const totalPages = 3
-                const totalArticles = 15
+                const totalPages = 4
+                const totalArticles = 16
                 const totalTags = 9
 
                 </script>

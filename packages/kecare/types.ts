@@ -150,13 +150,3 @@ export type ModuleMenuTS = {
     }>;
 }
 
-// 生成标签页
-export type ModuleTagsTS = {
-    generator: (context: KecareContext,
-        tagGroups: { tag: string, articles: ArchiveArticleData[] }[]
-    ) => Promise<{
-        fsPath: string,
-        template: string
-    }>;
-}
-

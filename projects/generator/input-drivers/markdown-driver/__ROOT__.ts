@@ -13,7 +13,7 @@ import GithubSlugger from 'github-slugger';
 import { parseDateString } from "kecare";
 import { useThemeConfig } from "../../utils/theme-config";
 import { existsSync } from 'node:fs';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 
 export type MarkdownOriginalArticle = ArticleVariant & {
     fsPath: string;
@@ -24,12 +24,16 @@ type MarkdownCacheEntry = {
     variants: ArticleVariant[];
 }
 
-type MarkdownCacheManifest = {
+export type MarkdownCacheManifest = {
     version: 1;
     articles: Record<string, MarkdownCacheEntry>;
 }
 
-async function loadMarkdownCache(cachePath: string): Promise<MarkdownCacheManifest> {
+// marked 的扩展注册是累积的，dev 模式下多次调用 markdownInputDriver 会重复追加扩展。
+// 用此标志保证整个进程只注册一次，避免内存增长与重复 tokenizer 分支。
+let markedInitialized = false;
+
+export async function loadMarkdownCache(cachePath: string): Promise<MarkdownCacheManifest> {
     try {
         const raw = await readFile(cachePath, 'utf-8');
         const manifest = JSON.parse(raw) as MarkdownCacheManifest;
@@ -44,11 +48,16 @@ async function loadMarkdownCache(cachePath: string): Promise<MarkdownCacheManife
 }
 
 export async function markdownInputDriver(context: KecareContext, chunks: Array<InputDriverChunk>): Promise<void> {
+    // tabs 的 uid 每次调用都重置，避免跨周期 uid 单调增长导致页面 id 冲突
     resetTabsTokenUid();
-    marked.use({ extensions: [tabsExtension] }, markedKatex({
-        throwOnError: false,
-        output: 'html',
-    }));
+    // marked 扩展只在进程内注册一次，避免 dev 多周期累积
+    if (!markedInitialized) {
+        marked.use({ extensions: [tabsExtension] }, markedKatex({
+            throwOnError: false,
+            output: 'html',
+        }));
+        markedInitialized = true;
+    }
 
     const headingRenderer = new marked.Renderer();
     headingRenderer.heading = function (token: any) {
@@ -115,6 +124,12 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
             }
         }
 
+        let desc
+        if (rawFrontMatter.desc && rawFrontMatter.desc.trim().length > 0) {
+            desc = rawFrontMatter.desc.trim()
+        } else {
+            desc = extraDescFromHtml(rawMarkdown, 120)
+        }
 
         // 元数据
         const frontMatter: FrontMatter = {
@@ -123,7 +138,7 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
             title: (rawFrontMatter.title ?? basename(fsPath, '.md')).trim(),
             menu: rawFrontMatter.menu ?? undefined,
             tags: rawFrontMatter.tags ?? [],
-            desc: rawFrontMatter.desc ?? extraDescFromHtml(rawMarkdown, 120),
+            desc: desc,
             translate: rawFrontMatter.translate ?? ['en-US'], // 翻译数组中的第一个元素，默认为文档自身的语言
             sticky: rawFrontMatter.sticky ?? 0,
             author: rawFrontMatter.author ?? undefined,
@@ -145,6 +160,13 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
         if (!parseDateString(frontMatter.date)) throw new Error(`[markdown] ${fsPath} 中的 date 字段格式错误，期望格式如 "2026-03-01"`);
         if (typeof frontMatter.hidden !== 'boolean') throw new Error(`[markdown] ${fsPath} 中的 hidden 字段必须是布尔值`);
         if (frontMatter.hidden === true) {
+            // 切换为隐藏时，清理已生成的 .vue 文件，避免产生孤儿产物
+            if (cached?.variants) {
+                for (const variant of cached.variants) {
+                    const realFsPath = variant.__REAL_FS_PATHS__;
+                    if (realFsPath && existsSync(realFsPath)) await rm(realFsPath, { force: true });
+                }
+            }
             delete manifest.articles[relativePath];
             await saveManifest();
             return;
@@ -156,7 +178,7 @@ export async function markdownInputDriver(context: KecareContext, chunks: Array<
             // 对于原始语言，直接使用原始内容，无需翻译
             if (language === frontMatter.translate[0]) {
                 const html = `<div class="kecare">${await marked.parse(rawMarkdown, { renderer: headingRenderer })}</div>`;
-                const desc = frontMatter.desc ?? String(frontMatter.desc).trim().length > 0 ? String(frontMatter.desc).trim() : extraDescFromHtml(html, 120);
+                const desc = frontMatter.desc
                 const hash = await Bun.hash.xxHash3(relativePath, 1234n).toString(16).slice(0, 8);
                 const article: ArticleVariant = {
                     lang: language,

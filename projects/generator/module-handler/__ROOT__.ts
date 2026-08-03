@@ -14,7 +14,7 @@ export async function emitArticleHandle(context: KecareContext, article: Article
     await (await useArchivesModuleHandler(context)).handle(article);
     await (await useSearchModuleHandler(context)).handle(article);
     // 收集文章元数据，供后续聚合统计使用
-    collectArticleData(article);
+    collectArticleData(context, article);
 }
 
 /**

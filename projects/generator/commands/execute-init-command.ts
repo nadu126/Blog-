@@ -1,28 +1,9 @@
 import { type Params } from './__ROOT__.ts';
 import consola from 'consola';
 import { resolve } from 'node:path';
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync } from 'node:fs';
 import { cli } from '../utils/cli.ts';
 import { execSync } from 'node:child_process';
-
-// // 模板配置
-// const TEMPLATES = [
-//     {
-//         name: 'Nuxt',
-//         description: 'Kecare 默认主题模板',
-//         repo: 'https://github.com/kecare/kecare-theme-default.git',
-//     },
-//     {
-//         name: 'Blog',
-//         description: 'Kecare 博客主题模板',
-//         repo: 'https://github.com/kecare/kecare-theme-blog.git',
-//     },
-//     {
-//         name: 'Docs',
-//         description: 'Kecare 文档主题模板',
-//         repo: 'https://github.com/kecare/kecare-theme-docs.git',
-//     },
-// ];
 
 export async function executeInitCommand(params: Params) {
     consola.info('Welcome to Use Kecare UwU I love U');
@@ -52,8 +33,10 @@ export async function executeInitCommand(params: Params) {
             });
             consola.success(`项目初始化完成: ${projectPath}`);
             console.log('正在安装依赖性...');
+            // 必须指定 cwd，否则会在当前目录而非新项目目录安装依赖
             execSync(`npm install`, {
                 stdio: 'inherit',
+                cwd: projectPath,
             });
             console.log('接下来请运行:');
             console.log(`  cd ${projectPath}`);
@@ -67,12 +50,11 @@ export async function executeInitCommand(params: Params) {
         console.log('Empty Project');
         console.log('正在创建空项目...');
         try {
-            execSync(`mkdir -p "${projectPath}"`, {
-                stdio: 'inherit',
-            });
+            // 使用 mkdirSync 替代 `mkdir -p`，前者是跨平台的 Node API，Windows 下也能正常工作
+            mkdirSync(projectPath, { recursive: true });
             consola.success(`项目初始化完成: ${projectPath}`);
         } catch (error) {
-            consola.error('创建空项目失败，请检查网络连接或 Git 是否已安装');
+            consola.error('创建空项目失败');
             process.exit(1);
         }
     }
@@ -91,32 +73,4 @@ export async function executeInitCommand(params: Params) {
             process.exit(1);
         }
     }
-
-
-    // // 获取选中的模板
-    // const selectedIndex = templateChoices.indexOf(selectedTemplateStr);
-    // const selectedTemplate = TEMPLATES[selectedIndex];
-
-    // if (!selectedTemplate) {
-    //     consola.error('模板选择失败');
-    //     process.exit(1);
-    // }
-
-    // consola.start(`正在从 ${selectedTemplate.repo} 克隆模板...`);
-
-
-    // // 3. 克隆模板
-    // try {
-    //     execSync(`git clone ${selectedTemplate.repo} "${projectPath}"`, {
-    //         stdio: 'inherit',
-    //     });
-    //     consola.success(`项目初始化完成: ${projectPath}`);
-    //     consola.info('接下来请运行:');
-    //     consola.info(`  cd ${projectPath}`);
-    //     consola.info('  pnpm install');
-    //     consola.info('  pnpm dev');
-    // } catch (error) {
-    //     consola.error('克隆模板失败，请检查网络连接或 Git 是否已安装');
-    //     process.exit(1);
-    // }
 }
