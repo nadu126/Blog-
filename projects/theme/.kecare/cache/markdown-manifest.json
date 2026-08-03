@@ -1355,7 +1355,7 @@
           "hash": "8a8cb741",
           "relativePath": "/增量生成与热更新原理.md",
           "frontMatter": {
-            "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
+            "cover": "https://img.pichost.cloud/images/1785613091954.webp",
             "title": "增量生成与热更新原理",
             "tags": [],
             "desc": "Kecare 增量生成与热更新原理 一、概述 传统流程下，每改一个字都要 kecare gen 全量重跑：扫描所有文章 → 解析 Markdown → AI 翻译 → 写所有页面。这在文章多、需要翻译时非常慢。 kecare dev 解决三...",
