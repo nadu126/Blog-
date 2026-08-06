@@ -5,7 +5,7 @@ import AuthorCard from '~/components/Theme/Sidebar/author-card.vue'
 import type { ArchiveArticleData } from "kecare";
 import Footer from '~/components/Theme/Sidebar/Footer.vue'
 
-const bg = 'https://img.pichost.cloud/images/1785984248304.png'
+const bg = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785984248304.png'
 
 type YearGroup = {
     year: number;

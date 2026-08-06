@@ -53,7 +53,7 @@ function pad(n: number): string {
 // 累计陪伴天数文案
 const totalDaysText = computed(() => `这是我们一起走过的第 ${elapsed.value.days + 1} 天`)
 
-const bg = 'https://img.pichost.cloud/images/1785984248304.png'
+const bg = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785984248304.png'
 </script>
 
 <template>

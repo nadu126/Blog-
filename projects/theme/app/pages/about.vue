@@ -5,7 +5,7 @@ import 'sakana-widget/lib/index.css';
 import Navbar from '~/components/Theme/Sidebar/Navbar.vue'
 import Footer from '~/components/Theme/Sidebar/Footer.vue'
 
-const bg = 'https://img.pichost.cloud/images/1785984248304.png'
+const bg = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785984248304.png'
 
 useHead({
     title: '关于我',

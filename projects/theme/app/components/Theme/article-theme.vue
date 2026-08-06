@@ -128,7 +128,7 @@ const wordCount = computed(() => {
     return readingInfo.value.words
 })
 
-const bgImage = 'https://img.pichost.cloud/images/1785984248304.png'
+const bgImage = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785984248304.png'
 </script>
 
 <template>

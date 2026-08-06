@@ -5,7 +5,7 @@ const props = defineProps<{
     totalTags?: number
 }>();
 
-const bgImage = 'https://img.pichost.cloud/images/1785984591725.jpg'
+const bgImage = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785984591725.jpg'
 
 </script>
 <template>

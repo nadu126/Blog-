@@ -13,7 +13,7 @@
           "hash": "1601459e",
           "relativePath": "/Hello World Again.md",
           "frontMatter": {
-            "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+            "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg",
             "title": "Hello World Again",
             "tags": [],
             "desc": "Hello World 欢迎使用 Kecare！ 这是你的第一篇帖子，更多信息请查看文档，如果你在使用 Kecare 时遇到问题，你可以在Github上问我，或者联系我。 创建新文章 仅需在articles目录下新建markdown文件即可...",
@@ -36,13 +36,13 @@
         {
           "lang": "zh-CN",
           "title": "横山日出",
-          "html": "<div class=\"kecare\"><p>夏天的美好，往往藏在一些不经意的瞬间里。</p>\n<h2 id=\"夜晚街边\">夜晚街边</h2>\n<p>和朋友在路边停下脚步，买了一瓶冰酸奶。路灯把地面照得发亮， ordinary 的夜晚也因此变得有点特别。</p>\n<p><img src=\"https://img.pichost.cloud/images/1785981689548.jpg\" alt=\"夜晚街边的酸奶\"></p>\n<h2 id=\"黄昏湖边\">黄昏湖边</h2>\n<p>日落时分，湖面被染成橙红色。有人举起手机，想把这一刻留住。</p>\n<p><img src=\"https://img.pichost.cloud/images/1785670488165.jpg\" alt=\"黄昏湖边拍晚霞\"></p>\n<blockquote>\n<p>生活里的这些小片段，凑在一起就是整个夏天。</p>\n</blockquote>\n</div>",
+          "html": "<div class=\"kecare\"><p>夏天的美好，往往藏在一些不经意的瞬间里。</p>\n<h2 id=\"夜晚街边\">夜晚街边</h2>\n<p>和朋友在路边停下脚步，买了一瓶冰酸奶。路灯把地面照得发亮， ordinary 的夜晚也因此变得有点特别。</p>\n<p><img src=\"https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785981689548.jpg\" alt=\"夜晚街边的酸奶\"></p>\n<h2 id=\"黄昏湖边\">黄昏湖边</h2>\n<p>日落时分，湖面被染成橙红色。有人举起手机，想把这一刻留住。</p>\n<p><img src=\"https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg\" alt=\"黄昏湖边拍晚霞\"></p>\n<blockquote>\n<p>生活里的这些小片段，凑在一起就是整个夏天。</p>\n</blockquote>\n</div>",
           "isOriginalLang": true,
           "desc": "清晨的横山日出，记录了夏天的美。",
           "hash": "149b519d",
           "relativePath": "/夏日碎片.md",
           "frontMatter": {
-            "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+            "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg",
             "title": "横山日出",
             "tags": [
               "生活",
@@ -56,8 +56,8 @@
             "date": "2026-08-02",
             "hidden": false
           },
-          "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
-          "rawMarkdown": "\n夏天的美好，往往藏在一些不经意的瞬间里。\n\n## 夜晚街边\n\n和朋友在路边停下脚步，买了一瓶冰酸奶。路灯把地面照得发亮， ordinary 的夜晚也因此变得有点特别。\n\n![夜晚街边的酸奶](https://img.pichost.cloud/images/1785981689548.jpg)\n\n## 黄昏湖边\n\n日落时分，湖面被染成橙红色。有人举起手机，想把这一刻留住。\n\n![黄昏湖边拍晚霞](https://img.pichost.cloud/images/1785670488165.jpg)\n\n> 生活里的这些小片段，凑在一起就是整个夏天。\n",
+          "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg",
+          "rawMarkdown": "\n夏天的美好，往往藏在一些不经意的瞬间里。\n\n## 夜晚街边\n\n和朋友在路边停下脚步，买了一瓶冰酸奶。路灯把地面照得发亮， ordinary 的夜晚也因此变得有点特别。\n\n![夜晚街边的酸奶](https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785981689548.jpg)\n\n## 黄昏湖边\n\n日落时分，湖面被染成橙红色。有人举起手机，想把这一刻留住。\n\n![黄昏湖边拍晚霞](https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg)\n\n> 生活里的这些小片段，凑在一起就是整个夏天。\n",
           "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\149b519d.vue",
           "__REAL_RELATIVE_PATHS__": "articles/zh-CN/149b519d"
         }
@@ -75,7 +75,7 @@
           "hash": "f219dd09",
           "relativePath": "/welcome.md",
           "frontMatter": {
-            "cover": "https://img.pichost.cloud/images/1785980777968.jpeg",
+            "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785980777968.jpeg",
             "title": "welcome",
             "tags": [],
             "desc": "Welcome 感谢你选择Kecare作为你的内容生成工具！ Kecare 是一个现代化的内容生成器，专为构建内容驱动的网站而设计。它可以帮助你： 从 Markdown 文件生成静态页面 支持多语言内容翻译 灵活的模板系统 简洁的配置方式...",
@@ -104,7 +104,7 @@
           "hash": "a6019543",
           "relativePath": "/1111.md",
           "frontMatter": {
-            "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+            "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
             "title": "暂时没想好",
             "tags": [
               "生活"
@@ -117,7 +117,7 @@
             "date": "2026-08-03",
             "hidden": false
           },
-          "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+          "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
           "rawMarkdown": "",
           "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
           "__REAL_RELATIVE_PATHS__": "articles/zh-CN/a6019543"

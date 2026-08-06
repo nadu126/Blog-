@@ -125,7 +125,7 @@ onUnmounted(() => {
     }
 })
 
-const heroBg = 'https://img.pichost.cloud/images/1785983809889.jpg'
+const heroBg = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983809889.jpg'
 </script>
 
 <template>

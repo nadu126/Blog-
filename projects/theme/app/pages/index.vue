@@ -12,7 +12,7 @@
     "hash": "a6019543",
     "relativePath": "/1111.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+      "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
       "title": "暂时没想好",
       "tags": [
         "生活"
@@ -25,7 +25,7 @@
       "date": "2026-08-03",
       "hidden": false
     },
-    "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+    "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
     "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/a6019543",
     "__SKIP_ARTICLE_GENERATOR__": true,
@@ -40,7 +40,7 @@
     "hash": "149b519d",
     "relativePath": "/夏日碎片.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+      "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg",
       "title": "横山日出",
       "tags": [
         "生活",
@@ -54,7 +54,7 @@
       "date": "2026-08-02",
       "hidden": false
     },
-    "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+    "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785670488165.jpg",
     "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\149b519d.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/149b519d",
     "__SKIP_ARTICLE_GENERATOR__": true,
@@ -69,7 +69,7 @@
     "hash": "f219dd09",
     "relativePath": "/welcome.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785980777968.jpeg",
+      "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785980777968.jpeg",
       "title": "welcome",
       "tags": [],
       "desc": "Welcome 感谢你选择Kecare作为你的内容生成工具！ Kecare 是一个现代化的内容生成器，专为构建内容驱动的网站而设计。它可以帮助你： 从 Markdown 文件生成静态页面 支持多语言内容翻译 灵活的模板系统 简洁的配置方式...",
