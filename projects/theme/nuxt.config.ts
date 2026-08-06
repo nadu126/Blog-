@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     app: {
         baseURL: '/',
         head: {
-            titleTemplate: '%s - Pamperのblog',
+            titleTemplate: '%s - naduのblog',
             link: [
                 {
                     rel: 'stylesheet',
