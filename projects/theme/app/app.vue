@@ -41,14 +41,6 @@ nuxtApp.hook('page:finish', hide)
 
 <template>
     <div>
-        <div v-if="loading" class="fixed inset-0 z-[9999] flex items-center justify-center bg-[var(--color-bg-primary)]"
-            aria-live="polite" aria-busy="true">
-            <div class="flex flex-col items-center gap-[16px]">
-                <img src="~/assets/taichi.png" alt="加载中..."
-                    class="w-[120px] h-[120px] animate-[taichi-rotate_1.2s_linear_infinite] will-change-transform" />
-                <p class="m-0 text-[14px] text-[var(--color-accent)] tracking-[0.08em]">少女祈祷中...</p>
-            </div>
-        </div>
         <NuxtPage />
     </div>
 </template>
