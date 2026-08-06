@@ -43,7 +43,8 @@ onUnmounted(() => {
 <template>
     <div ref="navbar"
         class="fixed top-0 left-0 w-full bg-transparent dark:bg-transparent shadow-none text-[16px] leading-normal flex items-center justify-between px-[20px] md:px-[5%] py-[15px] z-[1000] transition-transform duration-[400ms]">
-        <div class="text-[1.5rem] font-bold text-[var(--color-accent)]">Pamper</div>
+        <div class="text-[1.5rem] font-bold text-[var(--color-accent)]">S0-14
+        </div>
         <ul
             class="flex list-none m-0 p-0 flex-wrap justify-end items-center gap-[5px] md:gap-[10px] max-w-full box-border">
             <li class="flex">
@@ -91,7 +92,7 @@ onUnmounted(() => {
             <li class="flex">
                 <NuxtLink
                     class="nav-link relative inline-flex items-center leading-[1.2] no-underline text-[inherit] px-[5px] py-[5px] font-medium"
-                    to="/friends">友链</NuxtLink>
+                    to="/countdown">时光</NuxtLink>
             </li>
         </ul>
     </div>

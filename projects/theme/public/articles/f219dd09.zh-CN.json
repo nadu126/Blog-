@@ -1,0 +1,9 @@
+{
+  "title": "welcome",
+  "lang": "zh-CN",
+  "hash": "f219dd09",
+  "tags": [],
+  "date": "2026-05-20",
+  "urlPath": "articles/zh-CN/f219dd09",
+  "content": "# Welcome\n\n感谢你选择Kecare作为你的内容生成工具！\n\nKecare 是一个现代化的内容生成器，专为构建内容驱动的网站而设计。它可以帮助你：\n\n- 从 Markdown 文件生成静态页面\n- 支持多语言内容翻译\n- 灵活的模板系统\n- 简洁的配置方式\n\n## 开始你的内容创作之旅吧！\n文档地址：[https://kecare.me](https://kecare.me)\n"
+}

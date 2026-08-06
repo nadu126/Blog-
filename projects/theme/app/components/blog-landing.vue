@@ -2,7 +2,6 @@
 import { ref, computed, onMounted, onUnmounted, nextTick } from "vue"
 // import SakanaWidget from 'sakana-widget';
 import 'sakana-widget/lib/index.css';
-import heroBg from '~/assets/bg3.jpg'
 import AuthorCard from '~/components/Theme/Sidebar/author-card.vue'
 import Navbar from '~/components/Theme/Sidebar/Navbar.vue'
 import Footer from '~/components/Theme/Sidebar/Footer.vue'
@@ -61,27 +60,28 @@ const paginationItems = computed(() => {
 });
 
 
-// kecream~
-function initSakanaWidget() {
-    const kecream = SakanaWidget.getCharacter('chisato');
-    if (kecream) {
-        kecream.image = kecreamavif;
-        SakanaWidget.registerCharacter('kecream', kecream);
-    }
-    new SakanaWidget({ character: 'kecream' }).mount('#sakana-widget');
-}
-onMounted(async () => {
-    await nextTick();
-    initSakanaWidget();
-});
+// // kecream~
+// function initSakanaWidget() {
+//     const kecream = SakanaWidget.getCharacter('chisato');
+//     if (kecream) {
+//         kecream.image = kecreamavif;
+//         SakanaWidget.registerCharacter('kecream', kecream);
+//     }
+//     new SakanaWidget({ character: 'kecream' }).mount('#sakana-widget');
+// }
+// onMounted(async () => {
+//     await nextTick();
+//     initSakanaWidget();
+// });
 
 
 const typingTimer = ref<number | null>(null);
 
+
 // subtitle
-const subtitleText = "病弱系小猫女仆,可爱喵,喜欢喵,結婚喵,要永远在一起喵!";
+const subtitleText = "我始终认为我们在无限接近幸福的路上~";
 const subtitleElement = ref<HTMLElement | null>(null);
-const typingSpeed = 100;
+const typingSpeed = 80;
 
 function typeWriter(text: string, element: HTMLElement, speed: number): () => void {
     let i = 0;
@@ -125,6 +125,7 @@ onUnmounted(() => {
     }
 })
 
+const heroBg = 'https://img.pichost.cloud/images/1785983809889.jpg'
 </script>
 
 <template>
@@ -136,7 +137,7 @@ onUnmounted(() => {
             <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
             <h1
                 class="relative text-white text-[4rem] font-bold tracking-[2px] select-none [text-shadow:2px_2px_10px_rgba(0,0,0,0.5)] animate-fadeIn">
-                Pamperのblog</h1>
+                Hello</h1>
             <div class="relative text-[#87ceeb] text-[2rem] tracking-[2px] flex items-center justify-center select-none [text-shadow:2px_2px_10px_rgba(0,0,0,0.5)]"
                 ref="subtitleElement"></div>
             <div

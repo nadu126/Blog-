@@ -1,11 +1,11 @@
 <script lang="ts" setup>
 import { computed, onMounted, nextTick, ref } from "vue"
-import 'sakana-widget/lib/index.css';
 import Navbar from '~/components/Theme/Sidebar/Navbar.vue'
 import AuthorCard from '~/components/Theme/Sidebar/author-card.vue'
 import type { ArchiveArticleData } from "kecare";
 import Footer from '~/components/Theme/Sidebar/Footer.vue'
-import bg from '~/assets/bg3.jpg'
+
+const bg = 'https://img.pichost.cloud/images/1785984248304.png'
 
 type YearGroup = {
     year: number;

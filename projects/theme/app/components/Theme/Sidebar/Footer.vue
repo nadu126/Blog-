@@ -6,7 +6,6 @@ const currentYear = new Date().getFullYear()
     <footer class="footer">
         <div class="footer-line"></div>
         <div class="footer-MoeIcp">
-            <a href="https://icp.gov.moe/?keyword=20260825" target="_blank">萌ICP备20260825号</a>
         </div>
         <div class="footer-bottom">
             <p>&copy;2020-{{ currentYear }} Kecare. All rights reserved.</p>

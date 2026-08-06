@@ -5,15 +5,17 @@ const props = defineProps<{
     totalTags?: number
 }>();
 
+const bgImage = 'https://img.pichost.cloud/images/1785984591725.jpg'
+
 </script>
 <template>
     <div class="author-card">
         <div class="avatar">
-            <img src="~/assets/avatar.webp" />
+            <img :src="bgImage" />
         </div>
 
-        <h3 class="author-name">Pamper</h3>
-        <NuxtLink to="https://github.com/Pamperkyumi/kecare" target="_blank" class="author-about">Github仓库，求Star⭐喵
+        <h3 class="author-name">-</h3>
+        <NuxtLink to="https://github.com/Pamperkyumi/kecare" target="_blank" class="author-about">Github仓库，求Star⭐
         </NuxtLink>
 
         <div class="author-stats">
@@ -26,7 +28,7 @@ const props = defineProps<{
                 <div class="stat-num">{{ props.totalTags }}</div>
             </div>
         </div>
-        <button class="follow" onclick="window.open('https://space.bilibili.com/422742655', '_blank')">灌注喵</button>
+        <button class="follow" onclick="window.open('http://nadu126.top/countdown', '_blank')">灌注</button>
     </div>
 </template>
 

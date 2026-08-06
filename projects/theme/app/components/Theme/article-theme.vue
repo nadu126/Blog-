@@ -3,7 +3,6 @@ import { useKecareSDK, } from 'kecare';
 import TocCard from '~/components/Theme/Sidebar/Toc-card.vue';
 import SidebarNavtree from '~/components/Theme/Sidebar/Sidebar-navtree.vue';
 import Navbar from '~/components/Theme/Sidebar/Navbar.vue';
-import bgImage from '~/assets/bg3.jpg'
 import type { ArticleVariant, NavItem } from "kecare";
 
 const kecareSDK = await useKecareSDK(); // 这样就加载了你的 js 代码
@@ -129,7 +128,7 @@ const wordCount = computed(() => {
     return readingInfo.value.words
 })
 
-
+const bgImage = 'https://img.pichost.cloud/images/1785984248304.png'
 </script>
 
 <template>

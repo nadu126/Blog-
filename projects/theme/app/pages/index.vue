@@ -6,146 +6,91 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "增量生成与热更新原理",
+    "title": "暂时没想好",
     "isOriginalLang": true,
-    "desc": "Kecare 增量生成与热更新原理 一、概述 传统流程下，每改一个字都要 kecare gen 全量重跑：扫描所有文章 → 解析 Markdown → AI 翻译 → 写所有页面。这在文章多、需要翻译时非常慢。 kecare dev 解决三...",
-    "hash": "8a8cb741",
-    "relativePath": "/增量生成与热更新原理.md",
+    "desc": "挺好看的就加进去了。",
+    "hash": "a6019543",
+    "relativePath": "/1111.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "增量生成与热更新原理",
-      "tags": [],
-      "desc": "Kecare 增量生成与热更新原理 一、概述 传统流程下，每改一个字都要 kecare gen 全量重跑：扫描所有文章 → 解析 Markdown → AI 翻译 → 写所有页面。这在文章多、需要翻译时非常慢。 kecare dev 解决三...",
+      "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+      "title": "暂时没想好",
+      "tags": [
+        "生活"
+      ],
+      "desc": "挺好看的就加进去了。",
       "translate": [
         "zh-CN"
       ],
-      "sticky": 5,
-      "author": "Pamper",
+      "sticky": 0,
       "date": "2026-08-03",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8a8cb741.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/8a8cb741",
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8a8cb741.vue",
-    "urlPath": "articles/zh-CN/8a8cb741"
+    "cover": "https://img.pichost.cloud/images/1785983988395.jpg",
+    "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/a6019543",
+    "__SKIP_ARTICLE_GENERATOR__": true,
+    "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
+    "urlPath": "articles/zh-CN/a6019543"
   },
   {
     "lang": "zh-CN",
-    "title": "花月",
+    "title": "横山日出",
     "isOriginalLang": true,
-    "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
-    "hash": "54f6a7aa",
-    "relativePath": "/花月.md",
+    "desc": "清晨的横山日出，记录了夏天的美。",
+    "hash": "149b519d",
+    "relativePath": "/夏日碎片.md",
     "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785613091954.webp",
-      "title": "花月",
-      "tags": [],
-      "desc": "Fioralune（花月） 我好懒的，以下都是几个我自己在做的东西，恳请大家学习和指点喵 PicHost 图床 pichost.cloud 一个用于个人使用的图床罢了，均使用阿里云国内节点部署，存储节点在国内上海，访问速度应该挺快的了已经，...",
+      "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+      "title": "横山日出",
+      "tags": [
+        "生活",
+        "随拍"
+      ],
+      "desc": "清晨的横山日出，记录了夏天的美。",
       "translate": [
         "zh-CN"
-      ],
-      "sticky": 5,
-      "author": "Pamper",
-      "date": "2026-07-04",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\54f6a7aa.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/54f6a7aa",
-    "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\54f6a7aa.vue",
-    "urlPath": "articles/zh-CN/54f6a7aa"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "天天禄杯S2",
-    "isOriginalLang": true,
-    "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
-    "hash": "aff462d2",
-    "relativePath": "/天天禄杯S2.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
-      "title": "天天禄杯S2",
-      "tags": [],
-      "desc": "花月Cs赛事S2喵 天天禄杯S1也是半顺利的结束了喵，由于群内呼声热烈，于是我们举办S2喵。鉴于S1出现过多非可控因素导致的观感以及体感上的下降，于是S2将会有更严苛的规则制定以及处罚细则。 如何报名 本次赛事不限制段位，本质娱乐赛属性。也...",
-      "translate": [
-        "zh-CN"
-      ],
-      "sticky": 4,
-      "author": "Pamper",
-      "date": "2026-08-01",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/aff462d2",
-    "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\aff462d2.vue",
-    "urlPath": "articles/zh-CN/aff462d2"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "关于我",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
-    "hash": "2f0fd1f2",
-    "relativePath": "/关于我.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
-      "title": "关于我",
-      "menu": "test",
-      "tags": [],
-      "desc": "👋Hello Kecare 简介 Kecare是一个开源的的静态网站生成器，它与框架无关，核心特点是非侵入式设计——把内容系统从主题/框架中解耦。只需要了解少量 TypeScript，编写对应的页面生成模板，就可以基于组件自由组合页面，在...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
-      ],
-      "sticky": 4,
-      "author": "Pamper",
-      "date": "2026-03-10",
-      "hidden": false
-    },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f0fd1f2",
-    "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f0fd1f2.vue",
-    "urlPath": "articles/zh-CN/2f0fd1f2"
-  },
-  {
-    "lang": "zh-CN",
-    "title": "Kecare的缓存",
-    "isOriginalLang": true,
-    "menu": "test",
-    "desc": "Kecare的缓存 Kecare作为一个静态网站生成器，在处理大量文章时面临着性能上的挑战。如果不采取任何缓存策略，每次生成都需要重新解析所有Markdown文件、重新调用AI翻译、重新生成HTML页面。随着文章数量的增长，这个过程会变得越...",
-    "hash": "8246c8ed",
-    "relativePath": "/kecare的缓存.md",
-    "frontMatter": {
-      "cover": "https://img.pichost.cloud/images/1785612859072.jpg",
-      "title": "Kecare的缓存",
-      "menu": "test",
-      "tags": [],
-      "desc": "Kecare的缓存 Kecare作为一个静态网站生成器，在处理大量文章时面临着性能上的挑战。如果不采取任何缓存策略，每次生成都需要重新解析所有Markdown文件、重新调用AI翻译、重新生成HTML页面。随着文章数量的增长，这个过程会变得越...",
-      "translate": [
-        "zh-CN",
-        "en-US",
-        "ja-JP"
       ],
       "sticky": 0,
-      "author": "Pamper",
       "date": "2026-08-02",
       "hidden": false
     },
-    "__REAL_FS_PATHS__": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
-    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/8246c8ed",
+    "cover": "https://img.pichost.cloud/images/1785670488165.jpg",
+    "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\149b519d.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/149b519d",
     "__SKIP_ARTICLE_GENERATOR__": true,
-    "fsPath": "C:\\Users\\Pamper\\Desktop\\workspace\\Kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\8246c8ed.vue",
-    "urlPath": "articles/zh-CN/8246c8ed"
+    "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\149b519d.vue",
+    "urlPath": "articles/zh-CN/149b519d"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "welcome",
+    "isOriginalLang": true,
+    "desc": "Welcome 感谢你选择Kecare作为你的内容生成工具！ Kecare 是一个现代化的内容生成器，专为构建内容驱动的网站而设计。它可以帮助你： 从 Markdown 文件生成静态页面 支持多语言内容翻译 灵活的模板系统 简洁的配置方式...",
+    "hash": "f219dd09",
+    "relativePath": "/welcome.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1785980777968.jpeg",
+      "title": "welcome",
+      "tags": [],
+      "desc": "Welcome 感谢你选择Kecare作为你的内容生成工具！ Kecare 是一个现代化的内容生成器，专为构建内容驱动的网站而设计。它可以帮助你： 从 Markdown 文件生成静态页面 支持多语言内容翻译 灵活的模板系统 简洁的配置方式...",
+      "translate": [
+        "zh-CN"
+      ],
+      "sticky": 0,
+      "date": "2026-05-20",
+      "hidden": false
+    },
+    "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\f219dd09.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/f219dd09",
+    "__SKIP_ARTICLE_GENERATOR__": true,
+    "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\f219dd09.vue",
+    "urlPath": "articles/zh-CN/f219dd09"
   }
 ]
                 const currentPage = 1
-                const totalPages = 4
-                const totalArticles = 16
-                const totalTags = 9
+                const totalPages = 1
+                const totalArticles = 3
+                const totalTags = 2
 
                 </script>
                 <template>
