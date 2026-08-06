@@ -204,8 +204,8 @@ const bgImage = 'https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/17859842
                         <div class="post-copyright-type">
                             <span class="post-copyright-meta text-[#4fc3f7] font-bold mr-[8px]">文章链接:</span>
                             <span class="post-copyright-info"><a class="text-[#3498db] no-underline hover:underline"
-                                    :href="`https://www.kecare.me/articles/${props.article.hash} `" targe="_blank"
-                                    rel="noopener noreferrer">kecare.me{{ route.path }}</a></span>
+                                    :href="`https://www.naidu126.top/articles/${props.article.hash} `" targe="_blank"
+                                    rel="noopener noreferrer">nadu126.top{{ route.path }}</a></span>
                         </div>
                         <div class="post-copyright-notice">
                             <span class="post-copyright-meta text-[#4fc3f7] font-bold mr-[8px]">版权声明:</span>
