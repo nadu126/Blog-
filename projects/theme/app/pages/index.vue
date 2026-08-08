@@ -6,14 +6,42 @@
                 const articles = [
   {
     "lang": "zh-CN",
-    "title": "暂时没想好",
+    "title": "我们一起看的日出",
+    "isOriginalLang": true,
+    "desc": "很喜欢我们在一起的时光",
+    "hash": "2f7dea16",
+    "relativePath": "/123.md",
+    "frontMatter": {
+      "cover": "https://img.pichost.cloud/images/1786150123990.jpg",
+      "title": "我们一起看的日出",
+      "tags": [
+        "生活",
+        "随拍"
+      ],
+      "desc": "很喜欢我们在一起的时光",
+      "translate": [
+        "zh-CN"
+      ],
+      "sticky": 0,
+      "date": "2026-08-07",
+      "hidden": false
+    },
+    "cover": "https://img.pichost.cloud/images/1786150123990.jpg",
+    "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f7dea16.vue",
+    "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f7dea16",
+    "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f7dea16.vue",
+    "urlPath": "articles/zh-CN/2f7dea16"
+  },
+  {
+    "lang": "zh-CN",
+    "title": "我们一起看的日出",
     "isOriginalLang": true,
     "desc": "挺好看的就加进去了。",
     "hash": "a6019543",
     "relativePath": "/1111.md",
     "frontMatter": {
       "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
-      "title": "暂时没想好",
+      "title": "我们一起看的日出",
       "tags": [
         "生活"
       ],
@@ -28,7 +56,6 @@
     "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
     "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
     "__REAL_RELATIVE_PATHS__": "articles/zh-CN/a6019543",
-    "__SKIP_ARTICLE_GENERATOR__": true,
     "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
     "urlPath": "articles/zh-CN/a6019543"
   },
@@ -89,7 +116,7 @@
 ]
                 const currentPage = 1
                 const totalPages = 1
-                const totalArticles = 3
+                const totalArticles = 4
                 const totalTags = 2
 
                 </script>

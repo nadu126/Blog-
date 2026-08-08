@@ -1,17 +1,6 @@
 {
   "articles": [
     {
-      "title": "暂时没想好",
-      "lang": "zh-CN",
-      "hash": "a6019543",
-      "tags": [
-        "生活"
-      ],
-      "date": "2026-08-03",
-      "urlPath": "articles/zh-CN/a6019543",
-      "file": "a6019543.zh-CN.json"
-    },
-    {
       "title": "welcome",
       "lang": "zh-CN",
       "hash": "f219dd09",
@@ -40,6 +29,29 @@
       "date": "2026-08-02",
       "urlPath": "articles/zh-CN/149b519d",
       "file": "149b519d.zh-CN.json"
+    },
+    {
+      "title": "我们一起看的日出",
+      "lang": "zh-CN",
+      "hash": "2f7dea16",
+      "tags": [
+        "生活",
+        "随拍"
+      ],
+      "date": "2026-08-07",
+      "urlPath": "articles/zh-CN/2f7dea16",
+      "file": "2f7dea16.zh-CN.json"
+    },
+    {
+      "title": "我们一起看的日出",
+      "lang": "zh-CN",
+      "hash": "a6019543",
+      "tags": [
+        "生活"
+      ],
+      "date": "2026-08-03",
+      "urlPath": "articles/zh-CN/a6019543",
+      "file": "a6019543.zh-CN.json"
     }
   ]
 }

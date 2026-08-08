@@ -93,11 +93,11 @@
       ]
     },
     "/1111.md": {
-      "contentHash": "e2bd57f5f93d64bb",
+      "contentHash": "4a835728f69e924a",
       "variants": [
         {
           "lang": "zh-CN",
-          "title": "暂时没想好",
+          "title": "我们一起看的日出",
           "html": "<div class=\"kecare\"></div>",
           "isOriginalLang": true,
           "desc": "挺好看的就加进去了。",
@@ -105,7 +105,7 @@
           "relativePath": "/1111.md",
           "frontMatter": {
             "cover": "https://pichostoss.oss-cn-shanghai.aliyuncs.com/images/1785983988395.jpg",
-            "title": "暂时没想好",
+            "title": "我们一起看的日出",
             "tags": [
               "生活"
             ],
@@ -121,6 +121,39 @@
           "rawMarkdown": "",
           "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\a6019543.vue",
           "__REAL_RELATIVE_PATHS__": "articles/zh-CN/a6019543"
+        }
+      ]
+    },
+    "/123.md": {
+      "contentHash": "358302b4357f9372",
+      "variants": [
+        {
+          "lang": "zh-CN",
+          "title": "我们一起看的日出",
+          "html": "<div class=\"kecare\"><p>立秋这天我们一直呆在一起没做什么事情，但是这天很有意义。</p>\n<h2 id=\"独墅湖教堂\">独墅湖教堂</h2>\n<p>哈哈，和喜欢的人在一起做的所有事情都很有意义</p>\n<p><img src=\"https://img.pichost.cloud/images/1786150123990.jpg\" alt=\"立秋这天\">\n<img src=\"https://img.pichost.cloud/images/1786150686767.jpg\" alt=\"立秋这天\">\n<img src=\"https://img.pichost.cloud/images/1786150777239.jpg\" alt=\"立秋这天\">\n<img src=\"https://img.pichost.cloud/images/1786150803165.jpg\" alt=\"立秋这天\"> </p>\n<h2 id=\"回来后我满脑子都是你\">回来后我满脑子都是你</h2>\n</div>",
+          "isOriginalLang": true,
+          "desc": "很喜欢我们在一起的时光",
+          "hash": "2f7dea16",
+          "relativePath": "/123.md",
+          "frontMatter": {
+            "cover": "https://img.pichost.cloud/images/1786150123990.jpg",
+            "title": "我们一起看的日出",
+            "tags": [
+              "生活",
+              "随拍"
+            ],
+            "desc": "很喜欢我们在一起的时光",
+            "translate": [
+              "zh-CN"
+            ],
+            "sticky": 0,
+            "date": "2026-08-07",
+            "hidden": false
+          },
+          "cover": "https://img.pichost.cloud/images/1786150123990.jpg",
+          "rawMarkdown": "\r\n立秋这天我们一直呆在一起没做什么事情，但是这天很有意义。\r\n\r\n## 独墅湖教堂\r\n\r\n哈哈，和喜欢的人在一起做的所有事情都很有意义\r\n\r\n![立秋这天](https://img.pichost.cloud/images/1786150123990.jpg)\r\n![立秋这天](https://img.pichost.cloud/images/1786150686767.jpg)\r\n![立秋这天](https://img.pichost.cloud/images/1786150777239.jpg)\r\n![立秋这天](https://img.pichost.cloud/images/1786150803165.jpg) \r\n\r\n## 回来后我满脑子都是你",
+          "__REAL_FS_PATHS__": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f7dea16.vue",
+          "__REAL_RELATIVE_PATHS__": "articles/zh-CN/2f7dea16"
         }
       ]
     }

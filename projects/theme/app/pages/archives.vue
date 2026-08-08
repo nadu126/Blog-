@@ -1,9 +1,21 @@
-<!-- Generated: 2026-08-06T05:24:45.644Z -->
+<!-- Generated: 2026-08-08T01:10:23.310Z -->
         <script setup lang="ts">
         import archivesTheme from '~/components/archive-landing.vue'
         const articles = [
   {
-    "title": "暂时没想好",
+    "title": "我们一起看的日出",
+    "lang": "zh-CN",
+    "hash": "2f7dea16",
+    "tags": [
+      "生活",
+      "随拍"
+    ],
+    "date": "2026-08-07",
+    "fsPath": "C:\\Users\\zhang\\Desktop\\kecare\\projects\\theme\\app\\pages\\articles\\zh-CN\\2f7dea16.vue",
+    "urlPath": "articles/zh-CN/2f7dea16"
+  },
+  {
+    "title": "我们一起看的日出",
     "lang": "zh-CN",
     "hash": "a6019543",
     "tags": [
@@ -35,7 +47,7 @@
     "urlPath": "articles/zh-CN/f219dd09"
   }
 ]
-        const totalArticles = 3
+        const totalArticles = 4
         const totalTags = 2
         useHead({
             title: '归档喵',
